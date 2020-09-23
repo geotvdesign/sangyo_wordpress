@@ -1,0 +1,13 @@
+body {
+  background: red;
+  color: blue;
+}
+
+body p {
+  color: black;
+}
+
+body .bg {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#8BCC8E), to(#A7F5AB));
+  background-image: linear-gradient(to bottom, #8BCC8E 0%, #A7F5AB 100%);
+}
