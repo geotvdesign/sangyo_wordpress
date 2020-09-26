@@ -1,0 +1,30 @@
+@import "./module/_reset";
+@import "./module/_top";
+
+/*
+@media screen and (max-width:768px) {
+    @import "./module/_sp";
+}
+
+@media screen and (max-width:769px) {
+    @import "./module/_pc";
+}*/
+
+$pc: 1024px;
+$tab: 680px;
+$sp: 480px;
+
+@mixin pc {
+    @media (max-width: ($pc)) {
+        @import "./module/_pc";
+    }
+}
+@mixin tab {
+    @media (max-width: ($tab)) {
+    }
+}
+@mixin sp {
+    @media (max-width: ($sp)) {
+        @import "./module/_sp";
+    }
+}

@@ -1,0 +1,9 @@
+.main {
+    background: red;
+    .top-main-visual {
+        &__inner {
+            margin: 0 auto;
+            width: 1100px;
+        }
+    }
+}
