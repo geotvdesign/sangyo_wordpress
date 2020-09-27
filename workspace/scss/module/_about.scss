@@ -1,0 +1,81 @@
+.under-contents {
+    &.under-about {
+        background: url(https://placehold.jp/2800x750.png) no-repeat;
+        background-size: cover;
+    }
+    &__inner {
+        padding: 100px 0;
+        margin: 0 auto;
+        width: 960px;
+    }
+    &__ttl {
+        padding-top: 50px;
+        &__en {
+            color: #fff;
+            font-size: 5.0rem;
+            font-weight: lighter;
+            letter-spacing: 2px;
+        }
+        &__ja {
+            color: #bbb;
+            font-size: 2.0rem;
+            font-weight: bold;
+            padding-top: 10px;
+        }
+    }
+}
+.about {
+    /* background: url(../images/detail_bg_ss.jpg) no-repeat;
+    background-size: cover;*/
+    background-position: top;
+    &__inner {
+        margin: 0 auto;
+        padding: 120px 0;
+        width: 1100px;
+    }
+    &__box {
+        /* background: url(../images/detail_box_bg.png) no-repeat;
+        background-size: 1108px 387px;*/
+        /*height: 387px;*/
+        position: relative;
+        width: 1108px;
+        /*margin: 120px 0 0;*/
+        background: #fff;
+        &__inner {
+            /*margin: 0 0 0 200px;*/
+            /*padding: 120px 0 0;*/
+            .colum {
+                justify-content: flex-start;
+            }
+        }
+        &:nth-child(n + 2) {
+            padding: 120px 0 0;
+        }
+
+        &__contents {
+            /*margin: 0 40px 0 0;*/
+            width: 370px;
+            &__inner {
+                width: 450px;
+                margin: 0 auto;
+                padding: 40px 0 0;
+            }
+            &__ttl {
+                color: #000;
+                font-size: 2.4rem;
+                font-weight: bold;
+                line-height: 1.5;
+            }
+            &__info {
+                color: #000;
+                font-size: 14px;
+                line-height: 2.5;
+                margin: 20px 0 35px;
+            }
+            .btn {
+                margin: 0 auto;
+                width: 200px;
+            }
+        }
+    }
+}

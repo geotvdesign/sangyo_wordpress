@@ -1,0 +1,29 @@
+|<!DOCTYPE html>
+|<html lang="ja">
+|<head>
+meta(charset="UTF-8")
+//- meta(name="viewport", content="width=device-width, initial-scale=1.0")
+<!-- viewport meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+title サンギョー貿易株式会社
+link(rel="stylesheet", type="text/css", href!="<?php bloginfo('template_url'); ?>/css/style.css",media="all" )
+|</head>
+|<body>
+|<div id="wrapper">
+header.header
+    .header__inner
+        .header__logo
+            a(href="http://")
+                img(src="https://placehold.jp/160x82.png", alt="サンギョー貿易株式会社")
+        .header__contact
+        nav.header__nav
+            ul.header__nav__menu
+                li.header__nav__menu__item: a(href="http://") 当社の強み
+                li.header__nav__menu__item: a(href="http://") 事業内容
+                li.header__nav__menu__item: a(href="http://") 会社案内
+                li.header__nav__menu__item: a(href="http://") 採用情報
+                li.header__nav__menu__item: a(href="http://") お問い合わせ
+        |<?php wp_head();?>
+|<main class="main">

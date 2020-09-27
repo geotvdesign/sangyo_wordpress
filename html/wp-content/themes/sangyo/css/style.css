@@ -563,6 +563,171 @@ ol, ul {
   letter-spacing: 1px;
 }
 
+.under-contents.under-about {
+  background: url(https://placehold.jp/2800x750.png) no-repeat;
+  background-size: cover;
+}
+
+.under-contents__inner {
+  padding: 100px 0;
+  margin: 0 auto;
+  width: 960px;
+}
+
+.under-contents__ttl {
+  padding-top: 50px;
+}
+
+.under-contents__ttl__en {
+  color: #fff;
+  font-size: 5.0rem;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.under-contents__ttl__ja {
+  color: #bbb;
+  font-size: 2.0rem;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.about {
+  /* background: url(../images/detail_bg_ss.jpg) no-repeat;
+    background-size: cover;*/
+  background-position: top;
+}
+
+.about__inner {
+  margin: 0 auto;
+  padding: 120px 0;
+  width: 1100px;
+}
+
+.about__box {
+  /* background: url(../images/detail_box_bg.png) no-repeat;
+        background-size: 1108px 387px;*/
+  /*height: 387px;*/
+  position: relative;
+  width: 1108px;
+  /*margin: 120px 0 0;*/
+  background: #fff;
+}
+
+.about__box__inner {
+  /*margin: 0 0 0 200px;*/
+  /*padding: 120px 0 0;*/
+}
+
+.about__box__inner .colum {
+  justify-content: flex-start;
+}
+
+.about__box:nth-child(n + 2) {
+  padding: 120px 0 0;
+}
+
+.about__box__contents {
+  /*margin: 0 40px 0 0;*/
+  width: 370px;
+}
+
+.about__box__contents__inner {
+  width: 450px;
+  margin: 0 auto;
+  padding: 40px 0 0;
+}
+
+.about__box__contents__ttl {
+  color: #000;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.about__box__contents__info {
+  color: #000;
+  font-size: 14px;
+  line-height: 2.5;
+  margin: 20px 0 35px;
+}
+
+.about__box__contents .btn {
+  margin: 0 auto;
+  width: 200px;
+}
+
+.under-contents.under-company {
+  background: url(https://placehold.jp/2800x750.png) no-repeat;
+  background-size: cover;
+}
+
+.under-contents__inner {
+  padding: 100px 0;
+  margin: 0 auto;
+  width: 960px;
+}
+
+.under-contents__ttl {
+  padding-top: 50px;
+}
+
+.under-contents__ttl__en {
+  color: #fff;
+  font-size: 5.0rem;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.under-contents__ttl__ja {
+  color: #bbb;
+  font-size: 2.0rem;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+/*common.css*/
+.under-sub-ttl {
+  font-size: 2.8rem;
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+
+.under-sub-ttl.company {
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.map {
+  background: #fff;
+}
+
+/*pc.css*/
+.company__inner {
+  color: #000;
+  padding: 100px 0;
+}
+
+.company dl {
+  border-bottom: 1px solid #666;
+  clear: both;
+  line-height: 1.8;
+  margin: 0 auto;
+  width: 740px;
+  padding: 15px 0;
+}
+
+.company dl dt {
+  float: left;
+  text-align: center;
+  width: 210px;
+}
+
+.company dl dd {
+  line-height: 1.8;
+  margin-left: 210px;
+}
+
 /*
 @media screen and (max-width:768px) {
     @import "./module/_sp";
