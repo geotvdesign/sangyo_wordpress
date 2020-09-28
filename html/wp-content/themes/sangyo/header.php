@@ -12,15 +12,15 @@
 <div id="wrapper">
 <header class="header">
   <div class="header__inner">
-    <div class="header__logo"><a href="http://"><img src="https://placehold.jp/160x82.png" alt="サンギョー貿易株式会社"/></a></div>
+    <div class="header__logo"><a href="./"><img src="https://placehold.jp/160x82.png" alt="サンギョー貿易株式会社"/></a></div>
     <div class="header__contact"></div>
     <nav class="header__nav">
       <ul class="header__nav__menu">
-        <li class="header__nav__menu__item"><a href="http://">当社の強み</a></li>
-        <li class="header__nav__menu__item"><a href="http://">事業内容</a></li>
-        <li class="header__nav__menu__item"><a href="http://">会社案内</a></li>
-        <li class="header__nav__menu__item"><a href="http://">採用情報</a></li>
-        <li class="header__nav__menu__item"><a href="http://">お問い合わせ</a></li>
+        <li class="header__nav__menu__item"><a href="/about">当社の強み</a></li>
+        <li class="header__nav__menu__item"><a href="/business">事業内容</a></li>
+        <li class="header__nav__menu__item"><a href="/company">会社案内</a></li>
+        <li class="header__nav__menu__item"><a href="/recruit">採用情報</a></li>
+        <li class="header__nav__menu__item"><a href="/contact">お問い合わせ</a></li>
       </ul>
     </nav><?php wp_head();?>
   </div>

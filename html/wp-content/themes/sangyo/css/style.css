@@ -728,6 +728,93 @@ ol, ul {
   margin-left: 210px;
 }
 
+.under-contents.under-business {
+  background: url(https://placehold.jp/2800x750.png) no-repeat;
+  background-size: cover;
+}
+
+.under-contents__inner {
+  padding: 100px 0;
+  margin: 0 auto;
+  width: 960px;
+}
+
+.under-contents__ttl {
+  padding-top: 50px;
+}
+
+.under-contents__ttl__en {
+  color: #fff;
+  font-size: 5.0rem;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.under-contents__ttl__ja {
+  color: #bbb;
+  font-size: 2.0rem;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+/*common.css*/
+.under-sub-ttl {
+  font-size: 2.8rem;
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+
+.under-sub-ttl.company {
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.map {
+  background: #fff;
+}
+
+/*pc.css*/
+.business__inner {
+  padding: 60px 0 140px;
+}
+
+.business__box {
+  padding: 0;
+  position: relative;
+}
+
+.business__box__bnr {
+  color: #fff;
+  height: 450px;
+  letter-spacing: 2px;
+  opacity: 1;
+  text-align: center;
+}
+
+.business__box .top-meta {
+  background: url(https://placehold.jp/799x451.png) no-repeat;
+  background-size: cover;
+  height: 350px;
+}
+
+.business__box .top-meta__inner {
+  position: absolute;
+  top: 35%;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.business__box .top-meta__name {
+  font-size: 4.5rem;
+  font-weight: lighter;
+}
+
+.business__box .top-meta__info {
+  font-size: 1.4rem;
+  margin: 30px 0 0;
+}
+
 /*
 @media screen and (max-width:768px) {
     @import "./module/_sp";
