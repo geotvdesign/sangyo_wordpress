@@ -9,22 +9,36 @@
     </div>
     <div class="footer__nav fr">
       <ul class="footer__nav__menu">
-        <li class="footer__nav__menu__item"><a href="http://">サンプル</a></li>
-        <li class="footer__nav__menu__item"><a href="http://">サンプル</a></li>
-        <li class="footer__nav__menu__item"><a href="http://">サンプル</a></li>
+        <li class="footer__nav__menu__item"><a href="http://">トップページ</a></li>
+        <li class="footer__nav__menu__item"><a href="http://">当社の強み</a></li>
+        <li class="footer__nav__menu__item"><a href="http://">最新情報</a></li>
+        <li class="footer__nav__menu__item"><a href="http://">ブログ</a></li>
+        <li class="footer__nav__menu__item"><a href="http://">サイトマップ</a></li>
+        <li class="footer__nav__menu__item"><a href="http://">お問い合わせ</a></li>
       </ul>
       <ul class="footer__nav__menu">
-        <li class="footer__nav__menu__item"><a href="http://">サンプル</a></li>
-        <li class="footer__nav__menu__item"><a href="http://">サンプル</a></li>
-        <li class="footer__nav__menu__item"><a href="http://">サンプル</a></li>
+        <li class="footer__nav__menu__item"><a href="http://">事業内容
+            <ul>
+              <li>金属・鉄鋼部門</li>
+              <li>食料部門</li>
+              <li>機械部門</li>
+              <li>エネルギー・化学品部門</li>
+            </ul></a></li>
       </ul>
       <ul class="footer__nav__menu">
-        <li class="footer__nav__menu__item"><a href="http://">サンプル</a></li>
-        <li class="footer__nav__menu__item"><a href="http://">サンプル</a></li>
+        <li class="footer__nav__menu__item"><a href="http://">会社案内
+            <ul>
+              <li>会社概要</li>
+              <li>沿革</li>
+            </ul></a></li>
       </ul>
       <ul class="footer__nav__menu">
-        <li class="footer__nav__menu__item"><a href="http://">サンプル</a></li>
-        <li class="footer__nav__menu__item"><a href="http://">サンプル</a></li>
+        <li class="footer__nav__menu__item"><a href="http://">採用情報
+            <ul>
+              <li>求める人材</li>
+              <li>インタビュー</li>
+              <li>募集要項</li>
+            </ul></a></li>
       </ul>
     </div>
     <div class="footer__copyright">(C) 2020 SANGYO BOEKI .CO.,LTD</div><!-- jQuery、Popper.js、Bootstrap JS -->

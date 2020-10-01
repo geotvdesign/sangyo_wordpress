@@ -29,12 +29,12 @@
             <div class="colum">
               <div class="top-about__detail__box__contents col-md-6">
                 <div class="top-about__detail__box__contents__inner">
-                  <p class="top-about__detail__box__contents__ttl">海外工場での製作により、国内製作よりコストカットができます</p>
-                  <p class="top-about__detail__box__contents__info">商社を介さず、当社の現地工場にて製作いたしますので、マージンや製作コストが削減できます。</p><a href="http://">
+                  <p class="top-about__detail__box__contents__ttl">貿易会社として世界中に拠点を持ち、<br/>独自のルートを開拓</p>
+                  <p class="top-about__detail__box__contents__info">大手貿易会社と比べ、独自の貿易ルートを開拓。コストカットを実現し、長年培ったノウハウを活用し幅広い商材を取り使っています。商材も金属やエネルギーなど社会インフラを支えるものから、消費者に直接届く食料品、医療従事者が使う専門機器まで取り扱っています。</p><a href="http://">
                     <div class="btn btn-outline-dark btn-block btn-lg">詳しくはこちら</div></a>
                 </div>
               </div>
-              <div class="top-about__detail__box__img col-md-6"><img src="https://placehold.jp/554x436.png" alt=""/></div>
+              <div class="top-about__detail__box__img col-md-6"></div>
             </div>
           </div>
         </div>
@@ -49,29 +49,29 @@
       <div class="top-business__ttl__jp">事業内容</div>
     </h2>
     <div class="colum"><a class="top-business__box col-md-6" href="http://">
-        <div class="top-business__box__bnr top-meta">
-          <div class="top-meta__inner">
-            <div class="top-meta__name">Metapro!</div>
-            <p class="top-meta__info">防錆鋼材・建材</p>
+        <div class="top-business__box__bnr top-metal">
+          <div class="top-business__box__bnr__inner">
+            <div class="top-business__box__bnr__name">金属・鉄鋼部門</div>
+            <p class="top-business__box__bnra__info">社会インフラを支える鉄と金属</p>
           </div>
         </div></a><a class="top-business__box col-md-6" href="http://">
-        <div class="top-business__box__bnr top-meta">
-          <div class="top-meta__inner">
-            <div class="top-meta__name">Metapro!</div>
-            <p class="top-meta__info">防錆鋼材・建材</p>
+        <div class="top-business__box__bnr top-food">
+          <div class="top-business__box__bnr__inner">
+            <div class="top-business__box__bnr__name">食料部門</div>
+            <p class="top-business__box__bnr__info">暮らしを支える食料</p>
           </div>
         </div></a></div>
     <div class="colum"><a class="top-business__box col-md-6" href="http://">
-        <div class="top-business__box__bnr top-meta">
-          <div class="top-meta__inner">
-            <div class="top-meta__name">Metapro!</div>
-            <p class="top-meta__info">防錆鋼材・建材</p>
+        <div class="top-business__box__bnr top-machine">
+          <div class="top-business__box__bnr__inner">
+            <div class="top-business__box__bnr__name">機械部門</div>
+            <p class="top-business__box__bnr__info">自動車から専門機器まで</p>
           </div>
         </div></a><a class="top-business__box col-md-6" href="http://">
-        <div class="top-business__box__bnr top-meta">
-          <div class="top-meta__inner">
-            <div class="top-meta__name">Metapro!</div>
-            <p class="top-meta__info">防錆鋼材・建材</p>
+        <div class="top-business__box__bnr top-energy">
+          <div class="top-business__box__bnr__inner">
+            <div class="top-business__box__bnr__name">エネルギー・化学品部門</div>
+            <p class="top-business__box__bnr__info">日本を支えるエネルギー</p>
           </div>
         </div></a></div>
   </div>
@@ -90,23 +90,16 @@
       <div class="top-recruit__ttl__en">Recruit</div>
       <div class="top-recruit__ttl__jp">採用情報</div>
     </h2>
-    <div class="colum">
-      <div class="top-recruit__desc__box col-4">
-        <div class="top-recruit__desc__box__figure"><a href="http://"><img src="https://placehold.jp/513x374.png" alt=""/></a>
-          <h3 class="top-recruit__desc__box__figure__copy"></h3>
-        </div>
-      </div>
-      <div class="top-recruit__desc__box col-4">
-        <div class="top-recruit__desc__box__figure"><a href="http://"><img src="https://placehold.jp/513x374.png" alt=""/></a>
-          <h3 class="top-recruit__desc__box__figure__copy"></h3>
-        </div>
-      </div>
-      <div class="top-recruit__desc__box col-4">
-        <div class="top-recruit__desc__box__figure"><a href="http://"><img src="https://placehold.jp/513x374.png" alt=""/></a>
-          <h3 class="top-recruit__desc__box__figure__copy"></h3>
-        </div>
-      </div>
-    </div>
+    <div class="colum"><a class="top-recruit__box human col-4" href="http://">
+        <div class="top-recruit__box__figure">
+          <h3 class="top-recruit__box__figure__copy">求める人材</h3>
+        </div></a><a class="top-recruit__box interview col-4" href="http://">
+        <div class="top-recruit__box__figure">
+          <h3 class="top-recruit__box__figure__copy">インタビュー</h3>
+        </div></a><a class="top-recruit__box application col-4" href="http://">
+        <div class="top-recruit__box__figure">
+          <h3 class="top-recruit__box__figure__copy">募集要項</h3>
+        </div></a></div>
   </div>
 </section>
 <section class="top-contact">

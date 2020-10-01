@@ -17,10 +17,6 @@
       endif;
       ?>
  		</div>
- 		<div id="sidebar" class="col-md-3">
-			<?php get_sidebar(); ?>
-			<!-- 上記が追記するコード -->
- 		</div>
  	</div>
  </section>
  <!-- 下記が追記するコード -->

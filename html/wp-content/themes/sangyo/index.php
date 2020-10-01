@@ -45,9 +45,9 @@
 					?>
 				</div>
  		</div>
- 		<div id="sidebar" class="col-md-3">
-		 <?php get_sidebar(); ?>
- 		</div>
+ 		<!-- <div id="sidebar" class="col-md-3"> -->
+		 <?php //get_sidebar(); ?>
+ 		<!-- </div> -->
  	</div>
  </section>
  <?php get_footer(); ?>

@@ -114,6 +114,8 @@ ol, ul {
     display: block;
     .top-main-visual {
         background-color: #000;
+        background: url(../images/top_visual_min.png);
+        background-size: cover;
         height: 750px;
         &__inner {
             position: relative;
@@ -123,7 +125,7 @@ ol, ul {
         }
         &__copy {
             /*pc*/
-            color: #fff;
+            color: #333;
             left: 50px;
             letter-spacing: 3px;
             top: 300px;
@@ -183,6 +185,11 @@ ol, ul {
                 width: 1108px;
                 /*margin: 120px 0 0;*/
                 background: #fff;
+                &__img {
+                    background: url(../images/top_main_img01.jpg);
+                    background-size: cover;
+                    background-position: center center;
+                }
                 &__inner {
                     /*margin: 0 0 0 200px;*/
                     /*padding: 120px 0 0;*/
@@ -300,7 +307,46 @@ ol, ul {
                 letter-spacing: 2px;
                 opacity: 1;
                 text-align: center;
+                &.top-metal {
+                    background: url(../images/top_main_img02.jpg);
+                    background-size: cover;
+                    background-position: center center;
+                }
+                &.top-food {
+                    background: url(../images/top_main_img03.jpg);
+                    background-size: cover;
+                    background-position: center center;
+                }
+                &.top-machine {
+                    background: url(../images/top_main_img04.jpg);
+                    background-size: cover;
+                    background-position: center center;
+                }
+                &.top-energy {
+                    background: url(../images/top_main_img05.jpg);
+                    background-size: cover;
+                    background-position: center center;
+                }
+
+                &__inner {
+                    position: absolute;
+                    top: 35%;
+                    left: 0;
+                    text-align: center;
+                    width: 100%;
+                }
+                &__name {
+                    font-size: 4.5rem;
+                    font-weight: lighter;
+
+                }
+                &__info {
+                    font-size: 1.4rem;
+                    margin: 30px 0 0;
+
+                }
             }
+            /*
             .top-meta {
                 background: url(https://placehold.jp/799x451.png) no-repeat;
                 background-size: cover;
@@ -322,7 +368,7 @@ ol, ul {
                     margin: 30px 0 0;
 
                 }
-            }
+            }*/
         }
     }
     .top-blog {
@@ -368,6 +414,38 @@ ol, ul {
                 font-size: 2.4rem;
                 font-weight: bold;
                 padding: 10px 0 0;
+            }
+        }
+        &__box {
+            color: #fff;
+            letter-spacing: 2px;
+            opacity: 1;
+            text-align: center;
+            height: 374px;
+            position: relative;
+            &.human {
+                background: url(../images/top_main_img06.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            &.interview {
+                background: url(../images/top_main_img07.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            &.application {
+                background: url(../images/top_main_img08.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            &__figure {
+                position: absolute;
+                top: 65%;
+                left: 5%;
+                &__copy {
+                    font-size: 3.5rem;
+                    font-weight: lighter;
+                }
             }
         }
     }
@@ -416,7 +494,8 @@ ol, ul {
 }
 
 .footer {
-    background: url(https://placehold.jp/1400x480.png) no-repeat left top;
+    /* background: url(https://placehold.jp/1400x480.png) no-repeat left top;*/
+    background: #f0f0f0;
     background-size: cover;
     height: 460px;
     &__inner {
@@ -424,7 +503,7 @@ ol, ul {
     }
     &__info {
         &__address {
-            color: #fff;
+            color: #777;
             font-size: 1.4rem;
             letter-spacing: 1px;
             line-height: 2;
@@ -440,10 +519,10 @@ ol, ul {
         &__menu {
             vertical-align: top;
             &__item {
-                margin: 0 0 35px;
+                margin: 0 0 15px;
                 list-style-type: none;
                 a:link,a:visited,a:active {
-                    color: #fff;
+                    color: #777;
                     font-size: 1.6rem;
                     letter-spacing: 1px;
                 }
