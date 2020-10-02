@@ -8,7 +8,7 @@
       <div class="footer__info__address">〒262-0023<br/>千葉県千葉市花見川区検見川町1-591-2<br/>TEL 043-441-7008 / FAX 0434-41-7015</div>
     </div>
     <div class="footer__nav fr">
-      <ul class="footer__nav__menu">
+      <ul class="footer__nav__menu col-lg-3">
         <li class="footer__nav__menu__item"><a href="http://">トップページ</a></li>
         <li class="footer__nav__menu__item"><a href="http://">当社の強み</a></li>
         <li class="footer__nav__menu__item"><a href="http://">最新情報</a></li>
@@ -16,28 +16,28 @@
         <li class="footer__nav__menu__item"><a href="http://">サイトマップ</a></li>
         <li class="footer__nav__menu__item"><a href="http://">お問い合わせ</a></li>
       </ul>
-      <ul class="footer__nav__menu">
+      <ul class="footer__nav__menu col-lg-3">
         <li class="footer__nav__menu__item"><a href="http://">事業内容
-            <ul>
-              <li>金属・鉄鋼部門</li>
-              <li>食料部門</li>
-              <li>機械部門</li>
-              <li>エネルギー・化学品部門</li>
+            <ul class="sub">
+              <li class="sub__item"><a href="http://">金属・鉄鋼部門</a></li>
+              <li class="sub__item"><a href="http://">食料部門</a></li>
+              <li class="sub__item"><a href="http://">機械部門</a></li>
+              <li class="sub__item"><a href="http://">エネルギー・化学品部門</a></li>
             </ul></a></li>
       </ul>
-      <ul class="footer__nav__menu">
+      <ul class="footer__nav__menu col-lg-3">
         <li class="footer__nav__menu__item"><a href="http://">会社案内
-            <ul>
-              <li>会社概要</li>
-              <li>沿革</li>
+            <ul class="sub">
+              <li class="sub__item"><a href="http://">会社概要</a></li>
+              <li class="sub__item"><a href="http://">沿革</a></li>
             </ul></a></li>
       </ul>
-      <ul class="footer__nav__menu">
+      <ul class="footer__nav__menu col-lg-3">
         <li class="footer__nav__menu__item"><a href="http://">採用情報
-            <ul>
-              <li>求める人材</li>
-              <li>インタビュー</li>
-              <li>募集要項</li>
+            <ul class="sub">
+              <li class="sub__item"><a href="http://">求める人材</a></li>
+              <li class="sub__item"><a href="http://">インタビュー</a></li>
+              <li class="sub__item"><a href="http://">募集要項</a></li>
             </ul></a></li>
       </ul>
     </div>

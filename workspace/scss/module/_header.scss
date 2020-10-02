@@ -1,0 +1,30 @@
+.header {
+    &__logo {
+        padding: 22px 0 0;
+        img {
+            margin: 0 auto;
+        }
+    }
+    &__nav {
+        clear: both;
+        margin: 0 auto;
+        &__menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            &__item {
+                font-size: 1.8rem;
+                font-weight: bold;
+                line-height: 100px;
+                a:link,a:active,a:visited {
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+
+.header__inner {
+    margin: 0 auto;
+    width: 1000px;
+}

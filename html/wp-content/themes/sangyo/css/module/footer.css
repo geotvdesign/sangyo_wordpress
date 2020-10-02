@@ -1,0 +1,65 @@
+.footer {
+  /* background: url(https://placehold.jp/1400x480.png) no-repeat left top;*/
+  background: #f0f0f0;
+  background-size: cover;
+  height: 460px;
+}
+
+.footer__inner {
+  padding: 110px 0 0;
+}
+
+.footer__info__address {
+  color: #777;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  line-height: 2;
+  margin: 50px 0;
+}
+
+.footer__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+}
+
+.footer__nav ul + ul {
+  /*margin-left: 30px;*/
+}
+
+.footer__nav__menu {
+  vertical-align: top;
+}
+
+.footer__nav__menu__item {
+  margin: 0 0 15px;
+  list-style-type: none;
+}
+
+.footer__nav__menu__item a:link, .footer__nav__menu__item a:visited, .footer__nav__menu__item a:active {
+  color: #000;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.footer__nav__menu__item .sub {
+  padding: 10px 0 0;
+}
+
+.footer__nav__menu__item .sub__item {
+  margin: 0 0 10px;
+}
+
+.footer__nav__menu__item .sub__item a:link, .footer__nav__menu__item .sub__item a:visited, .footer__nav__menu__item .sub__item a:active {
+  color: #777;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.footer__copyright {
+  color: #000;
+  clear: both;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}

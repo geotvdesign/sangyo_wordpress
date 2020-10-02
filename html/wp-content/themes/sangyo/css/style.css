@@ -108,33 +108,6 @@ ol, ul {
   float: right;
 }
 
-/*
-.btn-wrap {
-    background: #000;
-    border: 5px solid #7e7e7e;
-    height: 45px;
-    transform: skewX(-20deg);
-    transition: .3s ease-in-out;
-    position: absolute;
-    right: 100px;
-    bottom: -30px;
-    width: 255px;
-    -webkit-transition: .3s ease-in-out;
-    .btn {
-        color: #fff;
-        font-size: 1.5rem;
-        line-height: 35px;
-        transform: skewX(20deg);
-        margin-left: 30px;
-        position: relative;
-    }
-}*/
-.btn {
-  font-size: 16px;
-  padding: 10px 0;
-  text-decoration: none;
-}
-
 .header__logo {
   padding: 22px 0 0;
 }
@@ -164,9 +137,105 @@ ol, ul {
   color: #000;
 }
 
-.header__inner, .footer__inner {
+.header__inner {
   margin: 0 auto;
   width: 1000px;
+}
+
+.footer {
+  /* background: url(https://placehold.jp/1400x480.png) no-repeat left top;*/
+  background: #f0f0f0;
+  background-size: cover;
+  height: 460px;
+}
+
+.footer__inner {
+  padding: 110px 0 0;
+}
+
+.footer__info__address {
+  color: #777;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  line-height: 2;
+  margin: 50px 0;
+}
+
+.footer__nav {
+  display: flex;
+  width: 70%;
+}
+
+.footer__nav ul + ul {
+  /*margin-left: 30px;*/
+}
+
+.footer__nav__menu {
+  vertical-align: top;
+}
+
+.footer__nav__menu__item {
+  margin: 0 0 15px;
+  list-style-type: none;
+}
+
+.footer__nav__menu__item a:link, .footer__nav__menu__item a:visited, .footer__nav__menu__item a:active {
+  color: #000;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.footer__nav__menu__item .sub {
+  padding: 10px 0 0;
+}
+
+.footer__nav__menu__item .sub__item {
+  margin: 0 0 10px;
+}
+
+.footer__nav__menu__item .sub__item a:link, .footer__nav__menu__item .sub__item a:visited, .footer__nav__menu__item .sub__item a:active {
+  color: #777;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.footer__copyright {
+  color: #000;
+  clear: both;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.footer__inner {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+/*
+.btn-wrap {
+    background: #000;
+    border: 5px solid #7e7e7e;
+    height: 45px;
+    transform: skewX(-20deg);
+    transition: .3s ease-in-out;
+    position: absolute;
+    right: 100px;
+    bottom: -30px;
+    width: 255px;
+    -webkit-transition: .3s ease-in-out;
+    .btn {
+        color: #fff;
+        font-size: 1.5rem;
+        line-height: 35px;
+        transform: skewX(20deg);
+        margin-left: 30px;
+        position: relative;
+    }
+}*/
+.btn {
+  font-size: 16px;
+  padding: 10px 0;
+  text-decoration: none;
 }
 
 .main {
@@ -227,7 +296,7 @@ ol, ul {
 
 .main .top-main-visual {
   background-color: #000;
-  background: url(../images/top_visual_min.png);
+  background: url(../images/top_visual.png);
   background-size: cover;
   height: 750px;
 }
@@ -599,56 +668,6 @@ ol, ul {
   min-width: 550px;
   padding: 14px;
   transition: color .6s ease,border .6s ease,background .6s ease;
-}
-
-.footer {
-  /* background: url(https://placehold.jp/1400x480.png) no-repeat left top;*/
-  background: #f0f0f0;
-  background-size: cover;
-  height: 460px;
-}
-
-.footer__inner {
-  padding: 110px 0 0;
-}
-
-.footer__info__address {
-  color: #777;
-  font-size: 1.4rem;
-  letter-spacing: 1px;
-  line-height: 2;
-  margin: 50px 0;
-}
-
-.footer__nav {
-  display: flex;
-  padding-top: 65px;
-}
-
-.footer__nav ul + ul {
-  margin-left: 30px;
-}
-
-.footer__nav__menu {
-  vertical-align: top;
-}
-
-.footer__nav__menu__item {
-  margin: 0 0 15px;
-  list-style-type: none;
-}
-
-.footer__nav__menu__item a:link, .footer__nav__menu__item a:visited, .footer__nav__menu__item a:active {
-  color: #777;
-  font-size: 1.6rem;
-  letter-spacing: 1px;
-}
-
-.footer__copyright {
-  color: #ccc;
-  clear: both;
-  font-size: 1.2rem;
-  letter-spacing: 1px;
 }
 
 .under-contents.under-about {

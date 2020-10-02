@@ -1,55 +1,3 @@
-html {
-    font-size: 62.5%;
-    height: 100%;
-    width: 100%;
-}
-
-@font-face {
-    font-family: source-han-serif-japanese;
-    src: url("../font/SourceHanSerifJP-Regular.otf");
-}
-
-body {
-    color: #000;
-    font-size: 1.6em;
-    font-family: source-han-serif-japanese,"ヒラギノ明朝 Pro W3","Hiragino Mincho Pro","游明朝体",YuMincho,"Yu Mincho","ＭＳ Ｐ明朝","MS PMincho",serif;
-}
-
-a {
-    text-decoration: none;
-    transition: 0.2s linear;
-}
-
-img {
-    height: auto;
-    max-width: 100%;
-}
-
-ol, ul {
-    list-style: none;
-}
-
-#wrapper {
-    height: auto;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-}
-
-.colum {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.fl {
-    float: left;
-}
-
-.fr {
-    float: right;
-}
-
 /*
 .btn-wrap {
     background: #000;
@@ -77,44 +25,11 @@ ol, ul {
     padding: 10px 0;
     text-decoration: none;
 }
-
-
-.header {
-    &__logo {
-        padding: 22px 0 0;
-        img {
-            margin: 0 auto;
-        }
-    }
-    &__nav {
-        clear: both;
-        margin: 0 auto;
-        &__menu {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            &__item {
-                font-size: 1.8rem;
-                font-weight: bold;
-                line-height: 100px;
-                a:link,a:active,a:visited {
-                    color: #000;
-                }
-            }
-        }
-    }
-}
-
-.header__inner,.footer__inner {
-    margin: 0 auto;
-    width: 1000px;
-}
-
 .main {
     display: block;
     .top-main-visual {
         background-color: #000;
-        background: url(../images/top_visual_min.png);
+        background: url(../images/top_visual.png);
         background-size: cover;
         height: 750px;
         &__inner {
@@ -490,49 +405,5 @@ ol, ul {
                 transition: color .6s ease,border .6s ease,background .6s ease;
             }
         }
-    }
-}
-
-.footer {
-    /* background: url(https://placehold.jp/1400x480.png) no-repeat left top;*/
-    background: #f0f0f0;
-    background-size: cover;
-    height: 460px;
-    &__inner {
-        padding: 110px 0 0;
-    }
-    &__info {
-        &__address {
-            color: #777;
-            font-size: 1.4rem;
-            letter-spacing: 1px;
-            line-height: 2;
-            margin: 50px 0;
-        }
-    }
-    &__nav {
-        display: flex;
-        padding-top: 65px;
-        & ul + ul {
-            margin-left: 30px;
-        }
-        &__menu {
-            vertical-align: top;
-            &__item {
-                margin: 0 0 15px;
-                list-style-type: none;
-                a:link,a:visited,a:active {
-                    color: #777;
-                    font-size: 1.6rem;
-                    letter-spacing: 1px;
-                }
-            }
-        }
-    }
-    &__copyright {
-        color: #ccc;
-        clear: both;
-        font-size: 1.2rem;
-        letter-spacing: 1px;
     }
 }
