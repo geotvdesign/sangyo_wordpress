@@ -108,8 +108,19 @@ ol, ul {
   float: right;
 }
 
+.header {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  left: 15%;
+}
+
+.header__inner {
+  display: flex;
+}
+
 .header__logo {
-  padding: 22px 0 0;
+  padding: 15px 0 0;
 }
 
 .header__logo img {
@@ -119,6 +130,7 @@ ol, ul {
 .header__nav {
   clear: both;
   margin: 0 auto;
+  width: 70%;
 }
 
 .header__nav__menu {
@@ -128,13 +140,13 @@ ol, ul {
 }
 
 .header__nav__menu__item {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: bold;
   line-height: 100px;
 }
 
 .header__nav__menu__item a:link, .header__nav__menu__item a:active, .header__nav__menu__item a:visited {
-  color: #000;
+  color: #fff;
 }
 
 .header__inner {
@@ -295,10 +307,18 @@ ol, ul {
 }
 
 .main .top-main-visual {
-  background-color: #000;
-  background: url(../images/top_visual.png);
-  background-size: cover;
-  height: 750px;
+  /*background-color: #000;
+        background: url(../images/top_video.mp4);
+        background-size: cover;
+        height: 750px;*/
+  position: relative;
+  /*
+        .filter {
+            background: #000;
+            video {
+                opacity: .8;
+            }
+        }*/
 }
 
 .main .top-main-visual__inner {
@@ -345,7 +365,7 @@ ol, ul {
 .main .top-about__ttl {
   color: #fff;
   text-align: center;
-  padding: 100px 0 60px;
+  padding: 300px 0 60px;
 }
 
 .main .top-about__ttl__en {
@@ -435,7 +455,7 @@ ol, ul {
 .main .top-business__ttl {
   color: #fff;
   text-align: center;
-  padding: 100px 0 60px;
+  padding: 300px 0 60px;
 }
 
 .main .top-business__ttl__en {
@@ -481,7 +501,7 @@ ol, ul {
 
 .main .top-business__box__bnr {
   color: #fff;
-  height: 450px;
+  height: 350px;
   letter-spacing: 2px;
   opacity: 1;
   text-align: center;
@@ -520,7 +540,7 @@ ol, ul {
 }
 
 .main .top-business__box__bnr__name {
-  font-size: 4.5rem;
+  font-size: 2.3rem;
   font-weight: lighter;
 }
 
@@ -543,7 +563,7 @@ ol, ul {
 .main .top-blog__ttl {
   color: #fff;
   text-align: center;
-  padding: 100px 0 60px;
+  padding: 300px 0 60px;
 }
 
 .main .top-blog__ttl__en {
@@ -561,12 +581,13 @@ ol, ul {
 
 .main .top-recruit__inner {
   margin: 0 auto;
+  width: 1100px;
 }
 
 .main .top-recruit__ttl {
   color: #fff;
   text-align: center;
-  padding: 100px 0 60px;
+  padding: 300px 0 60px;
 }
 
 .main .top-recruit__ttl__en {
@@ -616,7 +637,7 @@ ol, ul {
 }
 
 .main .top-recruit__box__figure__copy {
-  font-size: 3.5rem;
+  font-size: 2.3rem;
   font-weight: lighter;
 }
 
@@ -632,7 +653,7 @@ ol, ul {
 .main .top-contact__ttl {
   color: #fff;
   text-align: center;
-  padding: 100px 0 60px;
+  padding: 300px 0 60px;
 }
 
 .main .top-contact__ttl__en {
@@ -671,7 +692,7 @@ ol, ul {
 }
 
 .under-contents.under-about {
-  background: url(https://placehold.jp/2800x750.png) no-repeat;
+  background: url(../images/about_visual.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -679,10 +700,12 @@ ol, ul {
   padding: 100px 0;
   margin: 0 auto;
   width: 960px;
+  height: 500px;
 }
 
 .under-contents__ttl {
-  padding-top: 50px;
+  position: absolute;
+  top: 180px;
 }
 
 .under-contents__ttl__en {
@@ -693,7 +716,7 @@ ol, ul {
 }
 
 .under-contents__ttl__ja {
-  color: #bbb;
+  color: #fff;
   font-size: 2.0rem;
   font-weight: bold;
   padding-top: 10px;
@@ -707,7 +730,7 @@ ol, ul {
 
 .about__inner {
   margin: 0 auto;
-  padding: 120px 0;
+  padding: 170px 0;
   width: 1100px;
 }
 
@@ -731,7 +754,7 @@ ol, ul {
 }
 
 .about__box:nth-child(n + 2) {
-  padding: 120px 0 0;
+  padding: 200px 0 0;
 }
 
 .about__box__contents {
@@ -762,6 +785,24 @@ ol, ul {
 .about__box__contents .btn {
   margin: 0 auto;
   width: 200px;
+}
+
+.about__box__img01 {
+  background: url(../images/about_main_img01.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.about__box__img02 {
+  background: url(../images/about_main_img02.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.about__box__img03 {
+  background: url(../images/about_main_img03.jpg);
+  background-size: cover;
+  background-position: center center;
 }
 
 .under-contents.under-company {

@@ -28,10 +28,18 @@
 .main {
     display: block;
     .top-main-visual {
-        background-color: #000;
-        background: url(../images/top_visual.png);
+        /*background-color: #000;
+        background: url(../images/top_video.mp4);
         background-size: cover;
-        height: 750px;
+        height: 750px;*/
+        position: relative;
+        /*
+        .filter {
+            background: #000;
+            video {
+                opacity: .8;
+            }
+        }*/
         &__inner {
             position: relative;
             /*pc*/
@@ -70,7 +78,7 @@
         &__ttl {
             color: #fff;
             text-align: center;
-            padding: 100px 0 60px;
+            padding: 300px 0 60px;
             &__en {
                 color: #000;
                 font-size: 4.8rem;
@@ -200,7 +208,7 @@
         &__ttl {
             color: #fff;
             text-align: center;
-            padding: 100px 0 60px;
+            padding: 300px 0 60px;
             &__en {
                 color: #000;
                 font-size: 4.8rem;
@@ -218,7 +226,7 @@
             position: relative;
             &__bnr {
                 color: #fff;
-                height: 450px;
+                height: 350px;
                 letter-spacing: 2px;
                 opacity: 1;
                 text-align: center;
@@ -251,7 +259,7 @@
                     width: 100%;
                 }
                 &__name {
-                    font-size: 4.5rem;
+                    font-size: 2.3rem;
                     font-weight: lighter;
 
                 }
@@ -297,7 +305,7 @@
         &__ttl {
             color: #fff;
             text-align: center;
-            padding: 100px 0 60px;
+            padding: 300px 0 60px;
             &__en {
                 color: #000;
                 font-size: 4.8rem;
@@ -314,11 +322,12 @@
     .top-recruit {
         &__inner {
             margin: 0 auto;
+            width: 1100px;
         }
         &__ttl {
             color: #fff;
             text-align: center;
-            padding: 100px 0 60px;
+            padding: 300px 0 60px;
             &__en {
                 color: #000;
                 font-size: 4.8rem;
@@ -358,7 +367,7 @@
                 top: 65%;
                 left: 5%;
                 &__copy {
-                    font-size: 3.5rem;
+                    font-size: 2.3rem;
                     font-weight: lighter;
                 }
             }
@@ -373,7 +382,7 @@
         &__ttl {
             color: #fff;
             text-align: center;
-            padding: 100px 0 60px;
+            padding: 300px 0 60px;
             &__en {
                 color: #000;
                 font-size: 4.8rem;

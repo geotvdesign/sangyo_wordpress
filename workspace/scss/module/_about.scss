@@ -1,15 +1,17 @@
 .under-contents {
     &.under-about {
-        background: url(https://placehold.jp/2800x750.png) no-repeat;
+        background: url(../images/about_visual.jpg) no-repeat;
         background-size: cover;
     }
     &__inner {
         padding: 100px 0;
         margin: 0 auto;
         width: 960px;
+        height: 500px;
     }
     &__ttl {
-        padding-top: 50px;
+        position: absolute;
+        top: 180px;
         &__en {
             color: #fff;
             font-size: 5.0rem;
@@ -17,7 +19,7 @@
             letter-spacing: 2px;
         }
         &__ja {
-            color: #bbb;
+            color: #fff;
             font-size: 2.0rem;
             font-weight: bold;
             padding-top: 10px;
@@ -30,7 +32,7 @@
     background-position: top;
     &__inner {
         margin: 0 auto;
-        padding: 120px 0;
+        padding: 170px 0;
         width: 1100px;
     }
     &__box {
@@ -49,7 +51,7 @@
             }
         }
         &:nth-child(n + 2) {
-            padding: 120px 0 0;
+            padding: 200px 0 0;
         }
 
         &__contents {
@@ -76,6 +78,21 @@
                 margin: 0 auto;
                 width: 200px;
             }
+        }
+        &__img01 {
+            background: url(../images/about_main_img01.jpg);
+            background-size: cover;
+            background-position: center center;
+        }
+        &__img02 {
+            background: url(../images/about_main_img02.jpg);
+            background-size: cover;
+            background-position: center center;
+        }
+        &__img03 {
+            background: url(../images/about_main_img03.jpg);
+            background-size: cover;
+            background-position: center center;
         }
     }
 }
