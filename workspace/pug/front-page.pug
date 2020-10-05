@@ -1,9 +1,15 @@
 |<?php get_header();?>
 section.top-main-visual
-    .top-main-visual__inner
-        h1.top-main-visual__copy
-            .top-main-visual__copy__en Global
-            .top-main-visual__copy__jp 貿易で世界を変える
+    <video src="<?php echo get_template_directory_uri(); ?>/images/top_video.mp4?2" autoplay loop muted>
+        //- <img src="images/jewellery.jpg" alt="Placeholder">
+    </video>
+    //- .top-main-visual__inner
+    //-     h1.top-main-visual__copy
+    //-         .top-main-visual__copy__en Global
+    //-         .top-main-visual__copy__jp 貿易で世界を変える
+    //-     <video src="images/top_video.mp4" autoplay loop muted>
+    //-         <img src="images/jewellery.jpg" alt="Placeholder">
+    //-     </video>
     .slide
 section.top-infomation
     .top-infomation__inner
@@ -101,7 +107,7 @@ section.top-business
                 .top-business__box__bnr.top-metal
                     .top-business__box__bnr__inner
                         .top-business__box__bnr__name 金属・鉄鋼部門
-                        p.top-business__box__bnra__info 社会インフラを支える鉄と金属
+                        p.top-business__box__bnr__info 社会インフラを支える鉄と金属
             a(href="http://").top-business__box.col-md-6
                 .top-business__box__bnr.top-food
                     .top-business__box__bnr__inner
@@ -132,10 +138,10 @@ section.top-recruit
             a(href="http://").top-recruit__box.human.col-4
                 .top-recruit__box__figure
                     h3.top-recruit__box__figure__copy 求める人材
-            a(href="http://").top-recruit__box.interview.col-4
+            a(href="http://").top-recruit__box.interview.col-4.col-md-offset-3
                 .top-recruit__box__figure
                     h3.top-recruit__box__figure__copy インタビュー
-            a(href="http://").top-recruit__box.application.col-4
+            a(href="http://").top-recruit__box.application.col-4.col-md-offset-3
                 .top-recruit__box__figure
                     h3.top-recruit__box__figure__copy 募集要項
 section.top-contact

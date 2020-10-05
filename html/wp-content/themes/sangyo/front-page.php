@@ -1,11 +1,6 @@
 <?php get_header();?>
-<section class="top-main-visual">
-  <div class="top-main-visual__inner">
-    <h1 class="top-main-visual__copy">
-      <div class="top-main-visual__copy__en">Global</div>
-      <div class="top-main-visual__copy__jp">貿易で世界を変える</div>
-    </h1>
-  </div>
+<section class="top-main-visual"><video src="<?php echo get_template_directory_uri(); ?>/images/top_video.mp4?2" autoplay loop muted>
+</video>
   <div class="slide"></div>
 </section>
 <section class="top-infomation">
@@ -52,7 +47,7 @@
         <div class="top-business__box__bnr top-metal">
           <div class="top-business__box__bnr__inner">
             <div class="top-business__box__bnr__name">金属・鉄鋼部門</div>
-            <p class="top-business__box__bnra__info">社会インフラを支える鉄と金属</p>
+            <p class="top-business__box__bnr__info">社会インフラを支える鉄と金属</p>
           </div>
         </div></a><a class="top-business__box col-md-6" href="http://">
         <div class="top-business__box__bnr top-food">
@@ -93,10 +88,10 @@
     <div class="colum"><a class="top-recruit__box human col-4" href="http://">
         <div class="top-recruit__box__figure">
           <h3 class="top-recruit__box__figure__copy">求める人材</h3>
-        </div></a><a class="top-recruit__box interview col-4" href="http://">
+        </div></a><a class="top-recruit__box interview col-4 col-md-offset-3" href="http://">
         <div class="top-recruit__box__figure">
           <h3 class="top-recruit__box__figure__copy">インタビュー</h3>
-        </div></a><a class="top-recruit__box application col-4" href="http://">
+        </div></a><a class="top-recruit__box application col-4 col-md-offset-3" href="http://">
         <div class="top-recruit__box__figure">
           <h3 class="top-recruit__box__figure__copy">募集要項</h3>
         </div></a></div>
