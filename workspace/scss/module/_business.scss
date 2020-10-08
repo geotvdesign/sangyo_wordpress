@@ -1,6 +1,6 @@
 .under-contents {
     &.under-business {
-        background: url(https://placehold.jp/2800x750.png) no-repeat;
+        background: url(../images/business_visual.jpg) no-repeat;
         background-size: cover;
     }
     &__inner {
@@ -52,11 +52,27 @@
             letter-spacing: 2px;
             opacity: 1;
             text-align: center;
-        }
-        .top-meta {
-            background: url(https://placehold.jp/799x451.png) no-repeat;
-            background-size: cover;
             height: 350px;
+            &.top-metal {
+                background: url(../images/top_main_img02.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            &.top-food {
+                background: url(../images/top_main_img03.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            &.top-machine {
+                background: url(../images/top_main_img04.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            &.top-energy {
+                background: url(../images/top_main_img05.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
             &__inner {
                 position: absolute;
                 top: 35%;
@@ -65,7 +81,7 @@
                 width: 100%;
             }
             &__name {
-                font-size: 4.5rem;
+                font-size: 2.3rem;
                 font-weight: lighter;
 
             }

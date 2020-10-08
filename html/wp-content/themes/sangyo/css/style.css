@@ -806,7 +806,7 @@ ol, ul {
 }
 
 .under-contents.under-company {
-  background: url(https://placehold.jp/2800x750.png) no-repeat;
+  background: url(../images/company_visual.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -877,7 +877,7 @@ ol, ul {
 }
 
 .under-contents.under-business {
-  background: url(https://placehold.jp/2800x750.png) no-repeat;
+  background: url(../images/business_visual.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -937,15 +937,34 @@ ol, ul {
   letter-spacing: 2px;
   opacity: 1;
   text-align: center;
-}
-
-.business__box .top-meta {
-  background: url(https://placehold.jp/799x451.png) no-repeat;
-  background-size: cover;
   height: 350px;
 }
 
-.business__box .top-meta__inner {
+.business__box__bnr.top-metal {
+  background: url(../images/top_main_img02.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.business__box__bnr.top-food {
+  background: url(../images/top_main_img03.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.business__box__bnr.top-machine {
+  background: url(../images/top_main_img04.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.business__box__bnr.top-energy {
+  background: url(../images/top_main_img05.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.business__box__bnr__inner {
   position: absolute;
   top: 35%;
   left: 0;
@@ -953,39 +972,39 @@ ol, ul {
   width: 100%;
 }
 
-.business__box .top-meta__name {
-  font-size: 4.5rem;
+.business__box__bnr__name {
+  font-size: 2.3rem;
   font-weight: lighter;
 }
 
-.business__box .top-meta__info {
+.business__box__bnr__info {
   font-size: 1.4rem;
   margin: 30px 0 0;
 }
 
-.under-recruit.under-recruit {
-  background: url(https://placehold.jp/2800x750.png) no-repeat;
+.under-contents.under-recruit {
+  background: url(../images/recruit_visual.jpg) no-repeat;
   background-size: cover;
 }
 
-.under-recruit__inner {
+.under-contents__inner {
   padding: 100px 0;
   margin: 0 auto;
   width: 960px;
 }
 
-.under-recruit__ttl {
+.under-contents__ttl {
   padding-top: 50px;
 }
 
-.under-recruit__ttl__en {
+.under-contents__ttl__en {
   color: #fff;
   font-size: 5.0rem;
   font-weight: lighter;
   letter-spacing: 2px;
 }
 
-.under-recruit__ttl__ja {
+.under-contents__ttl__ja {
   color: #bbb;
   font-size: 2.0rem;
   font-weight: bold;
@@ -1064,7 +1083,7 @@ ol, ul {
 .human__ttl {
   color: #fff;
   text-align: center;
-  padding: 100px 0 60px;
+  padding: 200px 0 60px;
 }
 
 .human__ttl__en {
@@ -1144,6 +1163,13 @@ ol, ul {
   width: 200px;
 }
 
+.human__detail__box__img {
+  background: url(../images/recruit_main_img01.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 388px;
+}
+
 .interview {
   /*pc*/
   /*background-color: #333;*/
@@ -1157,7 +1183,7 @@ ol, ul {
 .interview__ttl {
   color: #fff;
   text-align: center;
-  padding: 100px 0 60px;
+  padding: 200px 0 60px;
 }
 
 .interview__ttl__en {
@@ -1170,6 +1196,69 @@ ol, ul {
   font-size: 2.0rem;
   font-weight: bold;
   padding: 10px 0 0;
+}
+
+.interview__box {
+  height: 500px;
+  padding: 0;
+}
+
+.interview__box.member-01 {
+  background: url(../images/recruit_main_img02.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.interview__box.member-02 {
+  background: url(../images/recruit_main_img03.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.interview__box.member-03 {
+  background: url(../images/recruit_main_img04.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.interview__box.member-04 {
+  background: url(../images/recruit_main_img05.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.interview__box .member-info {
+  position: relative;
+  width: 100%;
+  padding: 34px 45px;
+  background-color: rgba(17, 17, 17, 0.6);
+  color: #fff;
+  overflow: hidden;
+  top: 71%;
+}
+
+.interview__box .member-info__name {
+  margin-bottom: 10px;
+}
+
+.interview__box .member-info__name .jp {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 2.2rem;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+}
+
+.interview__box .member-info__name .en {
+  display: block;
+  font-size: 1.2rem;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+}
+
+.interview__box .member-info__department {
+  font-size: 1.4rem;
+  letter-spacing: 0.01em;
 }
 
 .interview .col-sm {
@@ -1195,7 +1284,7 @@ ol, ul {
 .application__ttl {
   color: #fff;
   text-align: center;
-  padding: 100px 0 60px;
+  padding: 200px 0 60px;
 }
 
 .application__ttl__en {
@@ -1230,44 +1319,44 @@ ol, ul {
   margin-left: 210px;
 }
 
-.under-contact {
+.recruit-contact {
   margin: 0 0 130px;
 }
 
-.under-contact__inner {
+.recruit-contact__inner {
   margin: 0 auto;
   width: 1100px;
 }
 
-.under-contact__ttl {
+.recruit-contact__ttl {
   color: #fff;
   text-align: center;
-  padding: 100px 0 60px;
+  padding: 200px 0 60px;
 }
 
-.under-contact__ttl__en {
+.recruit-contact__ttl__en {
   color: #000;
   font-size: 4.8rem;
 }
 
-.under-contact__ttl__jp {
+.recruit-contact__ttl__jp {
   color: #999;
   font-size: 2.4rem;
   font-weight: bold;
   padding: 10px 0 0;
 }
 
-.under-contact__detail {
+.recruit-contact__detail {
   text-align: center;
   margin-bottom: 48px;
 }
 
-.under-contact__btn {
+.recruit-contact__btn {
   font-weight: 400;
   text-align: center;
 }
 
-.under-contact__btn a {
+.recruit-contact__btn a {
   border: 1px solid #aabcc2;
   box-sizing: border-box;
   color: #333;
@@ -1277,6 +1366,88 @@ ol, ul {
   min-width: 550px;
   padding: 14px;
   transition: color .6s ease,border .6s ease,background .6s ease;
+}
+
+.under-contents.under-contact {
+  background: url(../images/contact_visual.jpg) no-repeat;
+  background-size: cover;
+}
+
+.under-contents__inner {
+  padding: 100px 0;
+  margin: 0 auto;
+  width: 960px;
+}
+
+.under-contents__ttl {
+  padding-top: 50px;
+}
+
+.under-contents__ttl__en {
+  color: #fff;
+  font-size: 5.0rem;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.under-contents__ttl__ja {
+  color: #bbb;
+  font-size: 2.0rem;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+/*common.css*/
+.under-sub-ttl {
+  font-size: 2.8rem;
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+
+.under-sub-ttl.company {
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.map {
+  background: #fff;
+}
+
+/*pc.css*/
+.wpcf7 {
+  margin: 0 auto;
+  padding: 140px 0 140px;
+  width: 1000px;
+}
+
+.wpcf7 .contact-note {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.wpcf7 form {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.wpcf7 form label {
+  text-align: center;
+}
+
+.wpcf7 form label .wpcf7-form-control-wrap {
+  display: block;
+  margin: 20px 0 40px;
+}
+
+.wpcf7 form label input, .wpcf7 form label textarea {
+  width: 600px;
+}
+
+.wpcf7 form .wpcf7-form-control.wpcf7-submit {
+  width: 240px;
+  height: 52px;
+  margin: 0 auto;
+  display: block;
 }
 
 /*

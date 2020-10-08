@@ -10,29 +10,29 @@
 <section class="business">
   <div class="business__inner">
     <div class="colum"><a class="business__box col-md-6" href="http://">
-        <div class="business__box__bnr top-meta">
-          <div class="top-meta__inner">
-            <div class="top-meta__name">Metapro!</div>
-            <p class="top-meta__info">防錆鋼材・建材</p>
+        <div class="business__box__bnr top-metal">
+          <div class="business__box__bnr__inner">
+            <div class="business__box__bnr__name">金属・鉄鋼部門</div>
+            <p class="business__box__bnr__info">社会インフラを支える鉄と金属</p>
           </div>
         </div></a><a class="business__box col-md-6" href="http://">
-        <div class="business__box__bnr top-meta">
-          <div class="top-meta__inner">
-            <div class="top-meta__name">Metapro!</div>
-            <p class="top-meta__info">防錆鋼材・建材</p>
+        <div class="business__box__bnr top-food">
+          <div class="business__box__bnr__inner">
+            <div class="business__box__bnr__name">食料部門</div>
+            <p class="business__box__bnr__info">暮らしを支える食料</p>
           </div>
         </div></a></div>
     <div class="colum"><a class="business__box col-md-6" href="http://">
-        <div class="business__box__bnr top-meta">
-          <div class="top-meta__inner">
-            <div class="top-meta__name">Metapro!</div>
-            <p class="top-meta__info">防錆鋼材・建材</p>
+        <div class="business__box__bnr top-machine">
+          <div class="business__box__bnr__inner">
+            <div class="business__box__bnr__name">機械部門</div>
+            <p class="business__box__bnr__info">自動車から専門機器まで</p>
           </div>
         </div></a><a class="business__box col-md-6" href="http://">
-        <div class="business__box__bnr top-meta">
-          <div class="top-meta__inner">
-            <div class="top-meta__name">Metapro!</div>
-            <p class="top-meta__info">防錆鋼材・建材</p>
+        <div class="business__box__bnr top-energy">
+          <div class="business__box__bnr__inner">
+            <div class="business__box__bnr__name">エネルギー・化学品部門</div>
+            <p class="business__box__bnr__info">日本を支えるエネルギー</p>
           </div>
         </div></a></div>
   </div>
