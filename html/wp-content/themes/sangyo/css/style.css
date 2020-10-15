@@ -1004,6 +1004,7 @@ ol, ul {
   font-size: 5.0rem;
   font-weight: lighter;
   letter-spacing: 2px;
+  padding-bottom: 10px;
 }
 
 .under-contents__ttl__ja {
@@ -1030,6 +1031,7 @@ ol, ul {
   font-size: 24px;
   text-align: center;
   letter-spacing: 7px;
+  line-height: 2;
 }
 
 .biz-detail__info {
@@ -1093,20 +1095,60 @@ ol, ul {
   width: 200px;
 }
 
-.biz-detail__box__img01 {
-  background: url(../images/about_main_img01.jpg);
+.biz-detail__box__img {
+  height: 436px;
+}
+
+.biz-detail__box__img.metal-img01 {
+  background: url(../images/metal_main_img01.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-.biz-detail__box__img02 {
-  background: url(../images/about_main_img02.jpg);
+.biz-detail__box__img.metal-img02 {
+  background: url(../images/metal_main_img02.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-.biz-detail__box__img03 {
-  background: url(../images/about_main_img03.jpg);
+.biz-detail__box__img.food-img01 {
+  background: url(../images/food_main_img01.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.biz-detail__box__img.food-img02 {
+  background: url(../images/food_main_img02.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.biz-detail__box__img.machine-img01 {
+  background: url(../images/machine_main_img01.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.biz-detail__box__img.machine-img02 {
+  background: url(../images/machine_main_img02.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.biz-detail__box__img.machine-img03 {
+  background: url(../images/machine_main_img03.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.biz-detail__box__img.energy-img01 {
+  background: url(../images/energy_main_img01.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.biz-detail__box__img.energy-img02 {
+  background: url(../images/energy_main_img02.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -1162,7 +1204,38 @@ ol, ul {
 
 .product__box__item__ttl {
   font-size: 1.6rem;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.product .column__box__contents__ttl {
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.product .column__box__contents__info {
+  font-size: 14px;
+  line-height: 2.5;
+}
+
+.product .column__box__img__figure {
+  width: 300px;
+  height: 200px;
+  margin: 60px auto 0;
+  display: block;
+}
+
+.product .column__box__img__figure.metal {
+  background: url(../images/metal_main_img03.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.product .column__box__img__figure.energy {
+  background: url(../images/energy_main_img03.jpg);
+  background-size: cover;
+  background-position: center center;
 }
 
 /*-----metal-----*/

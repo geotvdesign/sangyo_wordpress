@@ -15,6 +15,7 @@
             font-size: 5.0rem;
             font-weight: lighter;
             letter-spacing: 2px;
+            padding-bottom: 10px;
         }
         &__ja {
             color: #fff;
@@ -39,6 +40,7 @@
         font-size: 24px;
         text-align: center;
         letter-spacing: 7px;
+        line-height: 2;
     }
     &__info {
         margin: 0 auto;
@@ -91,20 +93,53 @@
                 width: 200px;
             }
         }
-        &__img01 {
-            background: url(../images/about_main_img01.jpg);
-            background-size: cover;
-            background-position: center center;
-        }
-        &__img02 {
-            background: url(../images/about_main_img02.jpg);
-            background-size: cover;
-            background-position: center center;
-        }
-        &__img03 {
-            background: url(../images/about_main_img03.jpg);
-            background-size: cover;
-            background-position: center center;
+        &__img {
+            height: 436px;
+            &.metal-img01 {
+                background: url(../images/metal_main_img01.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            &.metal-img02 {
+                background: url(../images/metal_main_img02.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            &.food-img01 {
+                background: url(../images/food_main_img01.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            &.food-img02 {
+                background: url(../images/food_main_img02.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            &.machine-img01 {
+                background: url(../images/machine_main_img01.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            &.machine-img02 {
+                background: url(../images/machine_main_img02.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            &.machine-img03 {
+                background: url(../images/machine_main_img03.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            &.energy-img01 {
+                background: url(../images/energy_main_img01.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            &.energy-img02 {
+                background: url(../images/energy_main_img02.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
         }
     }
 }
@@ -133,7 +168,41 @@
             margin-bottom: 40px;
             &__ttl {
                 font-size: 1.6rem;
-                margin-bottom: 10px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .column {
+        &__box {
+            &__contents{
+                &__ttl {
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                    border-bottom: 1px solid #ccc;
+                    padding-bottom: 10px;
+                }
+                &__info {
+                    font-size: 14px;
+                    line-height: 2.5;
+                }
+            }
+            &__img {
+                &__figure {
+                    width: 300px;
+                    height: 200px;
+                    margin: 60px auto 0;
+                    display: block;
+                    &.metal {
+                        background: url(../images/metal_main_img03.jpg);
+                        background-size: cover;
+                        background-position: center center;
+                    }
+                    &.energy {
+                        background: url(../images/energy_main_img03.jpg);
+                        background-size: cover;
+                        background-position: center center;
+                    }
+                }
             }
         }
     }

@@ -11,29 +11,29 @@
   <div class="biz-detail__inner">
     <h3 class="biz-detail__ttl">世界の食料業界の<br/>リーディングカンパニーを目指して</h3>
     <p class="biz-detail__info">当部門は、顧客ニーズを起点に、食料資源の開発から原料供給、製造加工、中間流通、リーテイルまでを有機的に結びつけた付加価値の高いバリューチェーンの構築を日本、中国・アジアを中心に世界規模で推進し、食の安全・安心に対する管理機能の高度化を図りながら、世界の食料業界のリーディングカンパニーを目指しています。</p>
-    <div class="about__box">
-      <div class="about__box__inner">
+    <div class="biz-detail__box">
+      <div class="biz-detail__box__inner">
         <div class="colum">
-          <div class="about__box__contents col-md-6">
-            <div class="about__box__contents__inner">
-              <p class="about__box__contents__ttl">世界中で<br/>さまざまな食料原料をトレード</p>
-              <p class="about__box__contents__info">米国における穀物集荷会社の経営、中米におけるコーヒー精製・輸出会社への資本参加、カナダでの養豚・豚肉製造販売事業、ドールのアジア・青果物事業及びグローバル・加工食品事業など、安定的かつ継続的な原料供給の拠点を構築するため、産地での取り組みを進めております。一方、国内の食品加工事業のノウハウを成長するアジア諸国への展開に活かすことにも積極的に通り組んでおります。今後も引き続き、食料資源の確固たる供給体制を築いていくことで、社会に貢献したいと考えております。</p>
+          <div class="biz-detail__box__contents col-md-6">
+            <div class="biz-detail__box__contents__inner">
+              <p class="biz-detail__box__contents__ttl">世界中で<br/>さまざまな食料原料をトレード</p>
+              <p class="biz-detail__box__contents__info">米国における穀物集荷会社の経営、中米におけるコーヒー精製・輸出会社への資本参加、カナダでの養豚・豚肉製造販売事業、ドールのアジア・青果物事業及びグローバル・加工食品事業など、安定的かつ継続的な原料供給の拠点を構築するため、産地での取り組みを進めております。一方、国内の食品加工事業のノウハウを成長するアジア諸国への展開に活かすことにも積極的に通り組んでおります。今後も引き続き、食料資源の確固たる供給体制を築いていくことで、社会に貢献したいと考えております。</p>
             </div>
           </div>
-          <div class="about__box__img img01 col-md-6"></div>
+          <div class="biz-detail__box__img food-img01 col-md-6"></div>
         </div>
       </div>
     </div>
-    <div class="about__box">
-      <div class="about__box__inner">
+    <div class="biz-detail__box">
+      <div class="biz-detail__box__inner">
         <div class="colum">
-          <div class="about__box__contents col-md-6">
-            <div class="about__box__contents__inner">
-              <p class="about__box__contents__ttl">原料調達から<br/>ネットワークを活かした販売まで</p>
-              <p class="about__box__contents__info">国内では、不二製油、プリマハム、伊藤忠製糖などの主要事業会社が食品製造・加工事業を行っており、また、海外展開においては、これまでの対日向け商品の製造事業に加え、現地市場向け商品の製造事業を行う企業への投資や共同事業の展開を推進しています。今後も日本の技術・ノウハウ・ブランドを活用し、現地パートナーと協力して海外展開を推進していきます。</p>
+          <div class="biz-detail__box__contents col-md-6">
+            <div class="biz-detail__box__contents__inner">
+              <p class="biz-detail__box__contents__ttl">原料調達から<br/>ネットワークを活かした販売まで</p>
+              <p class="biz-detail__box__contents__info">国内では、不二製油、プリマハム、伊藤忠製糖などの主要事業会社が食品製造・加工事業を行っており、また、海外展開においては、これまでの対日向け商品の製造事業に加え、現地市場向け商品の製造事業を行う企業への投資や共同事業の展開を推進しています。今後も日本の技術・ノウハウ・ブランドを活用し、現地パートナーと協力して海外展開を推進していきます。</p>
             </div>
           </div>
-          <div class="about__box__img img02 col-md-6"></div>
+          <div class="biz-detail__box__img food-img02 col-md-6"></div>
         </div>
       </div>
     </div>
@@ -48,20 +48,20 @@
             <div class="product__box">
               <h4 class="product__box__ttl">主要商品</h4>
               <div class="product__box__item">
-                <h5 class="product__box__item__ttl">Dole</h5>
-                <div class="product__box__item__detail">「太陽の恵みをそのまま食卓へ」ドールのモットーは1にも2にもクオリティへのこだわりです。<br/>独自の品質管理システムで、青果物の生産から、加工、流通、販売までをトータルに管理することで、高品質で安全な青果物を安定供給しています。<br/>今も昔も、フレッシュテイスト＆ハイクオリティがドールの基本です。</div>
+                <h5 class="product__box__item__ttl">バナナ</h5>
+                <div class="product__box__item__detail">「太陽の恵みをそのまま食卓へ」モットーは1にも2にもクオリティへのこだわりです。<br/>独自の品質管理システムで、青果物の生産から、加工、流通、販売までをトータルに管理することで、高品質で安全な青果物を安定供給しています。<br/>今も昔も、フレッシュテイスト＆ハイクオリティが基本です。</div>
               </div>
               <div class="product__box__item">
-                <h5 class="product__box__item__ttl">evian</h5>
-                <div class="product__box__item__detail">エビアンは、フレンチアルプスの大自然を約15年の歳月をかけて巡った「ナチュラルミネラルウォーター」です。<br/>天然のカルシウムとマグネシウムのバランスが良く、日本人にも飲みやすい硬水で、不足しがちなミネラルを補いながら、賢く水分補給ができます。<br/>世界約130カ国で販売されるスタイリッシュなエビアンは、多くのセレブリティに愛され続けています。</div>
+                <h5 class="product__box__item__ttl">ミネラルウォーター</h5>
+                <div class="product__box__item__detail">フレンチアルプスの大自然を約15年の歳月をかけて巡った「ナチュラルミネラルウォーター」です。<br/>天然のカルシウムとマグネシウムのバランスが良く、日本人にも飲みやすい硬水で、不足しがちなミネラルを補いながら、賢く水分補給ができます。<br/>世界約130カ国で販売されるスタイリッシュなミネラルウォーターは、多くのセレブリティに愛され続けています。</div>
               </div>
               <div class="product__box__item">
-                <h5 class="product__box__item__ttl">フェレロ ロシェ</h5>
+                <h5 class="product__box__item__ttl">ウェハースチョコ</h5>
                 <div class="product__box__item__detaily">上品なチョコレートとクラッシュヘーゼルナッツに包まれた丸いウエハースの中に、厳選されたヘーゼルナッツ１粒と、ココアヘーゼルナッツクリームが入っておいしさ四重奏。<br/>サクッした食感と香ばしい味が楽しめる、大人の甘さのチョコレート菓子です。華やかな金色の包装はギフトやパーティにぴったりのイタリアの逸品です。</div>
               </div>
               <div class="product__box__item">
                 <h5 class="product__box__item__ttl">スパム</h5>
-                <div class="product__box__item__detail">SPAM®は豚肉の挽肉にスパイスを練り合わせ、加熱調理した缶詰食品です。<br/>アメリカ、イギリスをはじめ世界80カ国で消費されており、沖縄では日常的な食材として、またお隣韓国でも非常に身近な食材として広く愛されている商品です。<br/>SPAM®はハワイのスパムむすびや、沖縄のゴーヤチャンプルにとどまらず、あらゆる料理の材料としてお使いいただけます。</div>
+                <div class="product__box__item__detail">豚肉の挽肉にスパイスを練り合わせ、加熱調理した缶詰食品です。<br/>アメリカ、イギリスをはじめ世界80カ国で消費されており、沖縄では日常的な食材として、またお隣韓国でも非常に身近な食材として広く愛されている商品です。<br/>ハワイのスパムむすびや、沖縄のゴーヤチャンプルにとどまらず、あらゆる料理の材料としてお使いいただけます。</div>
               </div>
             </div>
           </div>
