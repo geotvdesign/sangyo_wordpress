@@ -787,19 +787,23 @@ ol, ul {
   width: 200px;
 }
 
-.about__box__img01 {
+.about__box__img {
+  height: 436px;
+}
+
+.about__box__img.img01 {
   background: url(../images/about_main_img01.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-.about__box__img02 {
+.about__box__img.img02 {
   background: url(../images/about_main_img02.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-.about__box__img03 {
+.about__box__img.img03 {
   background: url(../images/about_main_img03.jpg);
   background-size: cover;
   background-position: center center;
@@ -980,6 +984,258 @@ ol, ul {
 .business__box__bnr__info {
   font-size: 1.4rem;
   margin: 30px 0 0;
+}
+
+/*-----common-----*/
+.under-contents__inner {
+  padding: 100px 0;
+  margin: 0 auto;
+  width: 960px;
+  height: 500px;
+}
+
+.under-contents__ttl {
+  position: absolute;
+  top: 180px;
+}
+
+.under-contents__ttl__en {
+  color: #fff;
+  font-size: 5.0rem;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.under-contents__ttl__ja {
+  color: #fff;
+  font-size: 2.0rem;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.biz-detail {
+  /* background: url(../images/detail_bg_ss.jpg) no-repeat;
+    background-size: cover;*/
+  background-position: top;
+}
+
+.biz-detail__inner {
+  margin: 0 auto;
+  padding: 170px 0;
+  width: 1100px;
+}
+
+.biz-detail__ttl {
+  margin-bottom: 26px;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 7px;
+}
+
+.biz-detail__info {
+  margin: 0 auto;
+  width: 590px;
+  font-size: 14px;
+  line-height: 2.05;
+  letter-spacing: 1.5px;
+}
+
+.biz-detail__box {
+  /* background: url(../images/detail_box_bg.png) no-repeat;
+        background-size: 1108px 387px;*/
+  /*height: 387px;*/
+  position: relative;
+  width: 1108px;
+  /*margin: 120px 0 0;*/
+  background: #fff;
+}
+
+.biz-detail__box__inner {
+  /*margin: 0 0 0 200px;*/
+  /*padding: 120px 0 0;*/
+}
+
+.biz-detail__box__inner .colum {
+  justify-content: flex-start;
+}
+
+.biz-detail__box:nth-child(n + 2) {
+  padding: 200px 0 0;
+}
+
+.biz-detail__box__contents {
+  /*margin: 0 40px 0 0;*/
+  width: 370px;
+}
+
+.biz-detail__box__contents__inner {
+  width: 450px;
+  margin: 0 auto;
+  padding: 40px 0 0;
+}
+
+.biz-detail__box__contents__ttl {
+  color: #000;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.biz-detail__box__contents__info {
+  color: #000;
+  font-size: 14px;
+  line-height: 2.5;
+  margin: 20px 0 35px;
+}
+
+.biz-detail__box__contents .btn {
+  margin: 0 auto;
+  width: 200px;
+}
+
+.biz-detail__box__img01 {
+  background: url(../images/about_main_img01.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.biz-detail__box__img02 {
+  background: url(../images/about_main_img02.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.biz-detail__box__img03 {
+  background: url(../images/about_main_img03.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.product {
+  /*
+    .contact {
+        &__item {
+            font-size: 13px;
+            margin: 0 auto;
+            width: 310px;
+            &__ttl {
+                font-size: 1.6rem;
+                margin-bottom: 10px;
+            }
+            &__num {
+                font-size: 16px;
+                font-weight: bold;
+                margin-right: 20px;
+            }
+        }
+    }*/
+}
+
+.product__inner {
+  padding: 60px 0;
+  background-color: #fafafa;
+}
+
+.product__inner__container {
+  width: 1100px;
+}
+
+.product--card {
+  margin-bottom: 30px;
+}
+
+.product__box {
+  padding: 40px 40px;
+}
+
+.product__box__ttl {
+  font-size: 2.0rem;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.product__box__item {
+  font-size: 1.4rem;
+  margin-bottom: 40px;
+}
+
+.product__box__item__ttl {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+/*-----metal-----*/
+.under-contents.under-metal {
+  background: url(../images/metal_visual.jpg) no-repeat;
+  background-size: cover;
+}
+
+/*-----food-----*/
+.under-contents.under-food {
+  background: url(../images/food_visual.jpg) no-repeat;
+  background-size: cover;
+}
+
+/*-----machine-----*/
+.under-contents.under-machine {
+  background: url(../images/machine_visual.jpg) no-repeat;
+  background-size: cover;
+}
+
+/*-----energy-----*/
+.under-contents.under-energy {
+  background: url(../images/energy_visual.jpg) no-repeat;
+  background-size: cover;
+}
+
+.biz-contact {
+  margin: 0 0 130px;
+}
+
+.biz-contact__inner {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.biz-contact__ttl {
+  color: #fff;
+  text-align: center;
+  padding: 100px 0 60px;
+}
+
+.biz-contact__ttl__en {
+  color: #000;
+  font-size: 4.8rem;
+}
+
+.biz-contact__ttl__jp {
+  color: #999;
+  font-size: 2.4rem;
+  font-weight: bold;
+  padding: 10px 0 0;
+}
+
+.biz-contact__detail {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.biz-contact__btn {
+  font-weight: 400;
+  text-align: center;
+}
+
+.biz-contact__btn a {
+  border: 1px solid #aabcc2;
+  box-sizing: border-box;
+  color: #333;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  min-width: 550px;
+  padding: 14px;
+  transition: color .6s ease,border .6s ease,background .6s ease;
 }
 
 .under-contents.under-recruit {
@@ -1448,6 +1704,14 @@ ol, ul {
   height: 52px;
   margin: 0 auto;
   display: block;
+}
+
+.wpcf7 form .contact-note {
+  line-height: 2;
+}
+
+.wpcf7 form .notice {
+  color: #ec4c4c;
 }
 
 /*

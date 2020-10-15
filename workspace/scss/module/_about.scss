@@ -79,20 +79,23 @@
                 width: 200px;
             }
         }
-        &__img01 {
-            background: url(../images/about_main_img01.jpg);
-            background-size: cover;
-            background-position: center center;
-        }
-        &__img02 {
-            background: url(../images/about_main_img02.jpg);
-            background-size: cover;
-            background-position: center center;
-        }
-        &__img03 {
-            background: url(../images/about_main_img03.jpg);
-            background-size: cover;
-            background-position: center center;
+        &__img {
+            height: 436px;
+            &.img01 {
+                background: url(../images/about_main_img01.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            &.img02 {
+                background: url(../images/about_main_img02.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            &.img03 {
+                background: url(../images/about_main_img03.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
         }
     }
 }

@@ -1,0 +1,234 @@
+/*-----common-----*/
+
+.under-contents {
+    &__inner {
+        padding: 100px 0;
+        margin: 0 auto;
+        width: 960px;
+        height: 500px;
+    }
+    &__ttl {
+        position: absolute;
+        top: 180px;
+        &__en {
+            color: #fff;
+            font-size: 5.0rem;
+            font-weight: lighter;
+            letter-spacing: 2px;
+        }
+        &__ja {
+            color: #fff;
+            font-size: 2.0rem;
+            font-weight: bold;
+            padding-top: 10px;
+        }
+    }
+}
+
+.biz-detail {
+    /* background: url(../images/detail_bg_ss.jpg) no-repeat;
+    background-size: cover;*/
+    background-position: top;
+    &__inner {
+        margin: 0 auto;
+        padding: 170px 0;
+        width: 1100px;
+    }
+    &__ttl {
+        margin-bottom: 26px;
+        font-size: 24px;
+        text-align: center;
+        letter-spacing: 7px;
+    }
+    &__info {
+        margin: 0 auto;
+        width: 590px;
+        font-size: 14px;
+        line-height: 2.05;
+        letter-spacing: 1.5px;
+    }
+    &__box {
+        /* background: url(../images/detail_box_bg.png) no-repeat;
+        background-size: 1108px 387px;*/
+        /*height: 387px;*/
+        position: relative;
+        width: 1108px;
+        /*margin: 120px 0 0;*/
+        background: #fff;
+        &__inner {
+            /*margin: 0 0 0 200px;*/
+            /*padding: 120px 0 0;*/
+            .colum {
+                justify-content: flex-start;
+            }
+        }
+        &:nth-child(n + 2) {
+            padding: 200px 0 0;
+        }
+
+        &__contents {
+            /*margin: 0 40px 0 0;*/
+            width: 370px;
+            &__inner {
+                width: 450px;
+                margin: 0 auto;
+                padding: 40px 0 0;
+            }
+            &__ttl {
+                color: #000;
+                font-size: 2.4rem;
+                font-weight: bold;
+                line-height: 1.5;
+            }
+            &__info {
+                color: #000;
+                font-size: 14px;
+                line-height: 2.5;
+                margin: 20px 0 35px;
+            }
+            .btn {
+                margin: 0 auto;
+                width: 200px;
+            }
+        }
+        &__img01 {
+            background: url(../images/about_main_img01.jpg);
+            background-size: cover;
+            background-position: center center;
+        }
+        &__img02 {
+            background: url(../images/about_main_img02.jpg);
+            background-size: cover;
+            background-position: center center;
+        }
+        &__img03 {
+            background: url(../images/about_main_img03.jpg);
+            background-size: cover;
+            background-position: center center;
+        }
+    }
+}
+
+.product {
+    &__inner {
+        padding: 60px 0;
+        background-color: #fafafa;
+        &__container {
+            width: 1100px;
+        }
+    }
+    &--card {
+        margin-bottom: 30px;
+    }
+    &__box {
+        padding: 40px 40px;
+        &__ttl {
+            font-size: 2.0rem;
+            letter-spacing: 2px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        &__item {
+            font-size: 1.4rem;
+            margin-bottom: 40px;
+            &__ttl {
+                font-size: 1.6rem;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    /*
+    .contact {
+        &__item {
+            font-size: 13px;
+            margin: 0 auto;
+            width: 310px;
+            &__ttl {
+                font-size: 1.6rem;
+                margin-bottom: 10px;
+            }
+            &__num {
+                font-size: 16px;
+                font-weight: bold;
+                margin-right: 20px;
+            }
+        }
+    }*/
+}
+
+
+
+
+/*-----metal-----*/
+.under-contents {
+    &.under-metal {
+        background: url(../images/metal_visual.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+
+/*-----food-----*/
+.under-contents {
+    &.under-food {
+        background: url(../images/food_visual.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+
+/*-----machine-----*/
+.under-contents {
+    &.under-machine {
+        background: url(../images/machine_visual.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+
+/*-----energy-----*/
+.under-contents {
+    &.under-energy {
+        background: url(../images/energy_visual.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+
+.biz-contact {
+    margin: 0 0 130px;
+    &__inner {
+        margin: 0 auto;
+        width: 1100px;
+    }
+    &__ttl {
+        color: #fff;
+        text-align: center;
+        padding: 100px 0 60px;
+        &__en {
+            color: #000;
+            font-size: 4.8rem;
+        }
+        &__jp {
+            color: #999;
+            font-size: 2.4rem;
+            font-weight: bold;
+            padding: 10px 0 0;
+        }
+    }
+    &__detail {
+        text-align: center;
+        margin-bottom: 48px;
+    }
+    &__btn {
+        font-weight: 400;
+        text-align: center;
+        a {
+            border: 1px solid #aabcc2;
+            box-sizing: border-box;
+            color: #333;
+            display: inline-block;
+            font-size: 14px;
+            letter-spacing: 1px;
+            min-width: 550px;
+            padding: 14px;
+            transition: color .6s ease,border .6s ease,background .6s ease;
+        }
+    }
+}

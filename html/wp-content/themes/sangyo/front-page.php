@@ -43,32 +43,38 @@
       <div class="top-business__ttl__en">Business</div>
       <div class="top-business__ttl__jp">事業内容</div>
     </h2>
-    <div class="colum"><a class="top-business__box col-md-6" href="http://">
-        <div class="top-business__box__bnr top-metal">
-          <div class="top-business__box__bnr__inner">
-            <div class="top-business__box__bnr__name">金属・鉄鋼部門</div>
-            <p class="top-business__box__bnr__info">社会インフラを支える鉄と金属</p>
-          </div>
-        </div></a><a class="top-business__box col-md-6" href="http://">
-        <div class="top-business__box__bnr top-food">
-          <div class="top-business__box__bnr__inner">
-            <div class="top-business__box__bnr__name">食料部門</div>
-            <p class="top-business__box__bnr__info">暮らしを支える食料</p>
-          </div>
-        </div></a></div>
-    <div class="colum"><a class="top-business__box col-md-6" href="http://">
-        <div class="top-business__box__bnr top-machine">
-          <div class="top-business__box__bnr__inner">
-            <div class="top-business__box__bnr__name">機械部門</div>
-            <p class="top-business__box__bnr__info">自動車から専門機器まで</p>
-          </div>
-        </div></a><a class="top-business__box col-md-6" href="http://">
-        <div class="top-business__box__bnr top-energy">
-          <div class="top-business__box__bnr__inner">
-            <div class="top-business__box__bnr__name">エネルギー・化学品部門</div>
-            <p class="top-business__box__bnr__info">日本を支えるエネルギー</p>
-          </div>
-        </div></a></div>
+    <div class="colum">
+      <div class="top-business__box col-md-6"><a href="./metal/">
+          <div class="top-business__box__bnr top-metal">
+            <div class="top-business__box__bnr__inner">
+              <div class="top-business__box__bnr__name">金属・鉄鋼部門</div>
+              <p class="top-business__box__bnr__info">社会インフラを支える鉄と金属</p>
+            </div>
+          </div></a></div>
+      <div class="top-business__box col-md-6"><a href="./food/">
+          <div class="top-business__box__bnr top-food">
+            <div class="top-business__box__bnr__inner">
+              <div class="top-business__box__bnr__name">食料部門</div>
+              <p class="top-business__box__bnr__info">暮らしを支える食料</p>
+            </div>
+          </div></a></div>
+    </div>
+    <div class="colum">
+      <div class="top-business__box col-md-6"><a href="./machine/">
+          <div class="top-business__box__bnr top-machine">
+            <div class="top-business__box__bnr__inner">
+              <div class="top-business__box__bnr__name">機械部門</div>
+              <p class="top-business__box__bnr__info">自動車から専門機器まで</p>
+            </div>
+          </div></a></div>
+      <div class="top-business__box col-md-6"><a href="./energy/">
+          <div class="top-business__box__bnr top-energy">
+            <div class="top-business__box__bnr__inner">
+              <div class="top-business__box__bnr__name">エネルギー・化学品部門</div>
+              <p class="top-business__box__bnr__info">日本を支えるエネルギー</p>
+            </div>
+          </div></a></div>
+    </div>
   </div>
 </section>
 <section class="top-blog">

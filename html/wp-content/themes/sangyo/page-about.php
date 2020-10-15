@@ -19,7 +19,7 @@
                 <div class="btn btn-outline-dark btn-block btn-lg">詳しくはこちら</div></a>
             </div>
           </div>
-          <div class="about__box__img01 col-md-6"></div>
+          <div class="about__box__img img01 col-md-6"></div>
         </div>
       </div>
     </div>
@@ -33,7 +33,7 @@
                 <div class="btn btn-outline-dark btn-block btn-lg">詳しくはこちら</div></a>
             </div>
           </div>
-          <div class="about__box__img02 col-md-6"></div>
+          <div class="about__box__img img02 col-md-6"></div>
         </div>
       </div>
     </div>
@@ -47,7 +47,7 @@
                 <div class="btn btn-outline-dark btn-block btn-lg">詳しくはこちら</div></a>
             </div>
           </div>
-          <div class="about__box__img03 col-md-6"></div>
+          <div class="about__box__img img03 col-md-6"></div>
         </div>
       </div>
     </div>

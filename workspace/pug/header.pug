@@ -15,7 +15,7 @@ link(rel="stylesheet", type="text/css", href!="<?php bloginfo('template_url'); ?
 header.header
     .header__inner
         .header__logo
-            a(href="./")
+            a(href!="<?php echo home_url() ?>")
                 img(src="https://placehold.jp/160x82.png", alt="サンギョー貿易株式会社")
         .header__contact
         nav.header__nav
