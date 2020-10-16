@@ -1,5 +1,12 @@
 <?php get_header();?>
-<section class="top-main-visual"><video src="<?php echo get_template_directory_uri(); ?>/images/top_video.mp4?2" autoplay loop muted>
+<section class="top-main-visual">
+  <div class="top-main-visual__inner">
+    <h1 class="top-main-visual__copy">
+      <div class="top-main-visual__copy__en">Change the world with trade</div>
+      <div class="top-main-visual__copy__jp">貿易で世界を変える</div>
+    </h1>
+  </div><div class="pattern"></div>
+<video src="<?php echo get_template_directory_uri(); ?>/images/top_video.mp4?2" autoplay loop muted>
 </video>
   <div class="slide"></div>
 </section>
