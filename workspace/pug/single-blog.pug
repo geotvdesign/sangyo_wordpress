@@ -1,0 +1,22 @@
+|<?php get_header(); ?>
+section.under-contents.under-about
+    .under-contents__inner
+        h1.under-contents__ttl
+            .under-contents__ttl__en Blog
+            .under-contents__ttl__ja ブログ
+section#content
+    #content-wrap.container
+        #main.col-md-9
+            |<?php
+            |if ( have_posts() ) :
+            |while ( have_posts() ) : the_post();
+            |?>
+            h1
+                |<?php the_title(); ?>
+            section
+                |<?php the_content(); ?>
+            |<?php
+            |endwhile;
+            |endif;
+            |?>
+|<?php get_footer(); ?>

@@ -108,6 +108,26 @@ ol, ul {
   float: right;
 }
 
+/*フェードイン*/
+.fadein {
+  opacity: 0;
+  transform: translate(0, 50px);
+  transition: all 800ms;
+}
+
+.fadein-left {
+  opacity: 0;
+  transform: translate(-50px, 0);
+  transition: all 500ms;
+}
+
+/*画面に入った状態 */
+.fadein.scrollin,
+.fadein-left.scrollin {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
 .header {
   position: absolute;
   top: 0;
@@ -353,6 +373,80 @@ ol, ul {
   font-weight: bold;
 }
 
+.main .top-main-visual .scroll-arrow {
+  left: 500px;
+  position: absolute;
+  padding-top: 60px;
+  top: 500px;
+  z-index: 2;
+}
+
+.main .top-main-visual .scroll-arrow a {
+  padding-top: 80px;
+}
+
+.main .top-main-visual .scroll-arrow a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb 2s infinite;
+  animation: sdb 2s infinite;
+  opacity: 0;
+  box-sizing: border-box;
+}
+
+.main .top-main-visual .scroll-arrow a span:nth-of-type(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.main .top-main-visual .scroll-arrow a span:nth-of-type(2) {
+  top: 16px;
+  -webkit-animation-delay: .15s;
+  animation-delay: .15s;
+}
+
+.main .top-main-visual .scroll-arrow a span:nth-of-type(3) {
+  top: 32px;
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+}
+
+.main .top-main-visual .scroll-arrow .txt {
+  color: #fff;
+}
+
+@-webkit-keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 .main .top-main-visual .pattern {
   background-color: #000;
   height: 810px;
@@ -363,6 +457,45 @@ ol, ul {
 
 .main .top-main-visual video {
   width: 100%;
+}
+
+.main .top-infomation {
+  height: auto;
+}
+
+.main .top-infomation__inner {
+  margin: 0 auto;
+  padding: 100px 100px 0;
+  width: 1100px;
+}
+
+.main .top-infomation .btn {
+  font-size: 1.3rem;
+}
+
+.main .top-infomation__ttl__en {
+  font-size: 2.3rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.main .top-infomation__ttl__jp {
+  color: #bbb;
+  font-size: 1.6rem;
+}
+
+.main .top-infomation .top-news {
+  padding-bottom: 40px;
+}
+
+.main .top-infomation .top-news__date {
+  font-size: 1.2rem;
+}
+
+.main .top-infomation .top-news__ttl {
+  color: #222;
+  font-size: 1.4rem;
+  line-height: 130%;
 }
 
 .main .top-about {
@@ -379,7 +512,7 @@ ol, ul {
 .main .top-about__ttl {
   color: #fff;
   text-align: center;
-  padding: 300px 0 60px;
+  padding: 200px 0 60px;
 }
 
 .main .top-about__ttl__en {
@@ -591,6 +724,33 @@ ol, ul {
   font-size: 2.0rem;
   font-weight: bold;
   padding: 10px 0 0;
+}
+
+.main .top-blog__item a {
+  display: block;
+}
+
+.main .top-blog__item a:hover {
+  transition: .3s ease-in-out;
+  opacity: .8;
+}
+
+.main .top-blog__item__thum {
+  margin: 0 auto 25px;
+  width: 200px;
+}
+
+.main .top-blog__item__date {
+  color: #000;
+  font-size: 12px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.main .top-blog__item__ttl .ttl {
+  color: #000;
+  font-size: 1.6rem;
+  text-align: center;
 }
 
 .main .top-recruit__inner {

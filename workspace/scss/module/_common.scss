@@ -49,3 +49,21 @@ ol, ul {
 .fr {
     float: right;
 }
+
+/*フェードイン*/
+.fadein {
+    opacity: 0;
+    transform: translate(0,50px);
+    transition: all 800ms;
+}
+.fadein-left {
+    opacity: 0;
+    transform: translate(-50px,0);
+    transition: all 500ms;
+}
+/*画面に入った状態 */
+.fadein.scrollin,
+.fadein-left.scrollin{
+    opacity: 1;
+    transform: translate(0,0);
+}
