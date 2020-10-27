@@ -1,22 +1,38 @@
 |<?php get_header(); ?>
-section.under-contents.under-about
+section.under-contents.under-news
     .under-contents__inner
         h1.under-contents__ttl
             .under-contents__ttl__en News
             .under-contents__ttl__ja 最新情報
-section#content
-    #content-wrap.container
-        #main.col-md-9
+section.info
+    .info__inner.row
+        .info__contents.col-md-8
             |<?php
             |if ( have_posts() ) :
             |while ( have_posts() ) : the_post();
             |?>
-            h1
+            .info-cat
+                |<?php
+                |$term = get_the_terms($post->ID,'news_category');
+                |echo $term[0]->name;
+                |?>
+            h1.info__contents__ttl
                 |<?php the_title(); ?>
-            section
+            .info__contents__date
+                |<?php the_time('Y年m月d日'); ?>
+            .info__contents__info
                 |<?php the_content(); ?>
+            |<?php wp_pagenavi(); ?>
             |<?php
             |endwhile;
             |endif;
             |?>
+            .pager
+                .pager-inner
+                    .prev
+                        |<?php previous_post_link('%link', '前の記事へ'); ?>
+                    .next
+                        |<?php next_post_link('%link', '次の記事へ'); ?>
+        .info__sidebar.col-md-4
+            |<?php get_sidebar('news'); ?>
 |<?php get_footer(); ?>

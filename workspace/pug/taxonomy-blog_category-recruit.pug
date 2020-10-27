@@ -1,0 +1,32 @@
+
+|<?php get_header(); ?>
+section.under-contents.under-blog
+    .under-contents__inner
+        h1.under-contents__ttl
+            .under-contents__ttl__en Blog
+            .under-contents__ttl__ja 採用
+section.info
+    .info__inner.row
+        .info__contents.col-md-8
+            ul
+                |<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                li.info-list
+                    .info-cat
+                        |<?php
+                        |$term = get_the_terms($post->ID,'blog_category');
+                        |echo $term[0]->name;
+                        |?>
+                    .info-list__date
+                        |<?php the_time('Y年m月d日'); ?>
+                    |<!-- タイトルにリンクを付けて表示 -->
+                    .info-list__ttl
+                        |<h3><a href="<?php the_permalink(); ?>" ><?php the_title(); ?></a></h3>
+                    |<!-- 抜粋を表示 -->
+                    .info-list__info
+                        |<?php the_excerpt(); ?>
+                |<?php endwhile; ?>
+                |<?php endif; ?>
+                |<?php wp_pagenavi(); ?>
+        .info__sidebar.col-md-4
+            |<?php get_sidebar('blog'); ?>
+|<?php get_footer(); ?>

@@ -1,0 +1,44 @@
+.side-ttl {
+    border-bottom: solid 1px #000;
+    font-size: 2.1rem;
+    padding: 30px 0 10px;
+    margin-bottom: 20px;
+}
+
+.cat {
+    ul {
+        list-style: none;
+        padding: 0;
+        li {
+            a {
+                color: #000;
+                display: block;
+                padding-left: 30px;
+                position: relative;
+                &::before {
+                    display: block;
+                    position: absolute;
+                    left: 3px;
+                    top: 50%;
+                    margin-top: -11px;
+                    content: ">";
+                    color: #111;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+.archive {
+    ul {
+        list-style: none;
+        padding: 0;
+        li {
+            padding-bottom: 10px;
+            a {
+                color: #000;
+            }
+        }
+    }
+}

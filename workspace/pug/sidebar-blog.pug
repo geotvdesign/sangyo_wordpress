@@ -1,0 +1,23 @@
+section.cat
+    h4.side-ttl Category
+    ul
+        |<?php
+        |$args = array(
+        |'taxonomy' => 'blog_category'
+        |);
+        |$categories = get_categories($args);
+        |foreach($categories as $category) {
+        |echo '<li><a href="'.get_category_link($category->term_id).'">'.$category->name.'</a></li>';
+        |}
+        |?>
+section.archive
+    h4.side-ttl Archive
+    ul
+        |<?php
+        |$string = wp_get_archives(array(
+        |'post_type'     => 'blog',
+        |'show_post_count' => 1,
+        |'echo' => 0
+        |));
+        |echo preg_replace('/<\/a>&nbsp;(\([0-9]*\))/', ' <span class="count">$1</span></a>', $string);
+        |?>

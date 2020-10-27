@@ -16,15 +16,15 @@
     <div class="col-md-3">
       <h2 class="top-infomation__ttl">
         <div class="top-infomation__ttl__en">News</div>
-        <div class="top-infomation__ttl__jp">最新情報</div>
-        <div class="btn btn-outline-dark btn-lg mt-5 p-3 f-12">一覧を見る</div>
+        <div class="top-infomation__ttl__jp">最新情報</div><a href="./news">
+          <div class="btn btn-outline-dark btn-lg mt-5 p-3 f-12">一覧を見る</div></a>
       </h2>
     </div>
     <div class="col-md-9">
       <?php
       $args = array(
       'post_type' => 'news',
-      'posts_per_page' => '5'
+      'posts_per_page' => '3'
       );
       $the_query = new WP_query($args);
       if ($the_query->have_posts()):
@@ -128,6 +128,8 @@
           </div></a></div><?php endwhile; ?>
       <?php wp_reset_postdata(); endif; ?>
     </div>
+    <div class="btn-wrap fadein"><a href="./blog">
+        <div class="btn btn-outline-dark btn-lg mt-5 p-3 f-12">一覧を見る</div></a></div>
   </div>
 </section>
 <section class="top-recruit">

@@ -18,12 +18,13 @@ section.top-infomation
             h2.top-infomation__ttl
                 .top-infomation__ttl__en News
                 .top-infomation__ttl__jp 最新情報
-                .btn.btn-outline-dark.btn-lg.mt-5.p-3.f-12 一覧を見る
+                a(href!="./news")
+                    .btn.btn-outline-dark.btn-lg.mt-5.p-3.f-12 一覧を見る
         .col-md-9
             |<?php
             |$args = array(
             |'post_type' => 'news',
-            |'posts_per_page' => '5'
+            |'posts_per_page' => '3'
             |);
             |$the_query = new WP_query($args);
             |if ($the_query->have_posts()):
@@ -175,6 +176,9 @@ section.top-blog
                             |<?php the_title(); ?>
             |<?php endwhile; ?>
             |<?php wp_reset_postdata(); endif; ?>
+        .btn-wrap.fadein
+            a(href!="./blog")
+                .btn.btn-outline-dark.btn-lg.mt-5.p-3.f-12 一覧を見る
 section.top-recruit
     .top-recruit__inner
         h2.top-recruit__ttl

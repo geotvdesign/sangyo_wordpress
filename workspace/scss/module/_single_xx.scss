@@ -1,0 +1,95 @@
+.under-contents {
+    &.under-news {
+        background: url(../images/news_visual.jpg) no-repeat;
+        background-size: cover;
+        background: #000;
+    }
+    &.under-blog {
+        background: url(../images/news_visual.jpg) no-repeat;
+        background-size: cover;
+        background: #000;
+    }
+    &__inner {
+        padding: 100px 0;
+        margin: 0 auto;
+        width: 960px;
+        height: 500px;
+    }
+    &__ttl {
+        position: absolute;
+        top: 180px;
+        &__en {
+            color: #fff;
+            font-size: 5.0rem;
+            font-weight: lighter;
+            letter-spacing: 2px;
+        }
+        &__ja {
+            color: #fff;
+            font-size: 2.0rem;
+            font-weight: bold;
+            padding-top: 10px;
+        }
+    }
+}
+.info {
+    /* background: url(../images/detail_bg_ss.jpg) no-repeat;
+    background-size: cover;*/
+    background-position: top;
+    &__inner {
+        margin: 0 auto;
+        padding: 60px 0;
+        width: 1100px;
+    }
+    &__contents {
+        padding: 0 30px;
+        .info-cat {
+            font-size: 1.2rem;
+            font-weight: bold;
+            background: #ccc;
+            padding: 5px;
+            width: 120px;
+            text-align: center;
+            border-radius: 5px;
+            margin: 40px 0 15px;
+        }
+        &__ttl {
+            font-size: 2.1rem;
+            padding: 0 0 10px;
+        }
+        &__date {
+            font-size: 1.3rem;
+        }
+        &__info {
+            padding-top: 60px;
+        }
+        .pager {
+            clear: both;
+            padding: 100px 30px 50px;
+            color: #005bac;
+            text-align: center;
+            margin: 0 auto;
+            .pager-inner {
+                display: flex;
+                width: 300px;
+                margin: 0 auto;
+            }
+            .prev {
+                padding-right: 50px;
+                a:before {
+                    content: "<<";
+                    color: #005bac;
+                }
+            }
+            .next {
+                a:after {
+                    content: ">>";
+                    color: #005bac;
+                }
+            }
+            a {
+                color: #005bac;
+            }
+        }
+    }
+}
