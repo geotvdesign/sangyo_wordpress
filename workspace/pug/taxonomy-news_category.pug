@@ -1,10 +1,14 @@
 
 |<?php get_header(); ?>
-section.under-contents.under-blog
+section.under-contents.under-news
     .under-contents__inner
         h1.under-contents__ttl
-            .under-contents__ttl__en Blog
-            .under-contents__ttl__ja 機械
+            .under-contents__ttl__en News
+            |<?php if ( is_object_in_term($post->ID, 'news_category','info') ): ?>
+            .under-contents__ttl__ja お知らせ
+            |<?php elseif ( is_object_in_term($post->ID, 'news_category','topics') ): ?>
+            .under-contents__ttl__ja トピックス
+            |<?php endif; ?>
 section.info
     .info__inner.row
         .info__contents.col-md-8
@@ -13,7 +17,7 @@ section.info
                 li.info-list
                     .info-cat
                         |<?php
-                        |$term = get_the_terms($post->ID,'blog_category');
+                        |$term = get_the_terms($post->ID,'news_category');
                         |echo $term[0]->name;
                         |?>
                     .info-list__date
@@ -28,5 +32,5 @@ section.info
                 |<?php endif; ?>
                 |<?php wp_pagenavi(); ?>
         .info__sidebar.col-md-4
-            |<?php get_sidebar('blog'); ?>
+            |<?php get_sidebar('news'); ?>
 |<?php get_footer(); ?>

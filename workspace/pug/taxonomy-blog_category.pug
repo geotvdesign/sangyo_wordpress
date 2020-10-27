@@ -4,7 +4,17 @@ section.under-contents.under-blog
     .under-contents__inner
         h1.under-contents__ttl
             .under-contents__ttl__en Blog
+            |<?php if ( is_object_in_term($post->ID, 'blog_category','recruit') ): ?>
             .under-contents__ttl__ja 採用
+            |<?php elseif ( is_object_in_term($post->ID, 'blog_category','metal') ): ?>
+            .under-contents__ttl__ja 金属・鉄鋼
+            |<?php elseif ( is_object_in_term($post->ID, 'blog_category','food') ): ?>
+            .under-contents__ttl__ja 食料
+            |<?php elseif ( is_object_in_term($post->ID, 'blog_category','machine') ): ?>
+            .under-contents__ttl__ja 機械
+            |<?php elseif ( is_object_in_term($post->ID, 'blog_category','energy') ): ?>
+            .under-contents__ttl__ja エネルギー
+            |<?php endif; ?>
 section.info
     .info__inner.row
         .info__contents.col-md-8

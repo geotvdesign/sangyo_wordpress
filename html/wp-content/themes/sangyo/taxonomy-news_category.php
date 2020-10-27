@@ -2,8 +2,9 @@
 <section class="under-contents under-news">
   <div class="under-contents__inner">
     <h1 class="under-contents__ttl">
-      <div class="under-contents__ttl__en">News</div>
-      <div class="under-contents__ttl__ja">お知らせ</div>
+      <div class="under-contents__ttl__en">News</div><?php if ( is_object_in_term($post->ID, 'news_category','info') ): ?>
+      <div class="under-contents__ttl__ja">お知らせ</div><?php elseif ( is_object_in_term($post->ID, 'news_category','topics') ): ?>
+      <div class="under-contents__ttl__ja">トピックス</div><?php endif; ?>
     </h1>
   </div>
 </section>

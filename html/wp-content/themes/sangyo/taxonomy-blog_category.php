@@ -2,8 +2,12 @@
 <section class="under-contents under-blog">
   <div class="under-contents__inner">
     <h1 class="under-contents__ttl">
-      <div class="under-contents__ttl__en">Blog</div>
-      <div class="under-contents__ttl__ja">エネルギー</div>
+      <div class="under-contents__ttl__en">Blog</div><?php if ( is_object_in_term($post->ID, 'blog_category','recruit') ): ?>
+      <div class="under-contents__ttl__ja">採用</div><?php elseif ( is_object_in_term($post->ID, 'blog_category','metal') ): ?>
+      <div class="under-contents__ttl__ja">金属・鉄鋼</div><?php elseif ( is_object_in_term($post->ID, 'blog_category','food') ): ?>
+      <div class="under-contents__ttl__ja">食料</div><?php elseif ( is_object_in_term($post->ID, 'blog_category','machine') ): ?>
+      <div class="under-contents__ttl__ja">機械</div><?php elseif ( is_object_in_term($post->ID, 'blog_category','energy') ): ?>
+      <div class="under-contents__ttl__ja">エネルギー</div><?php endif; ?>
     </h1>
   </div>
 </section>
