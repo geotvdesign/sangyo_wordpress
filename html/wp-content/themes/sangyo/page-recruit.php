@@ -2,16 +2,16 @@
 <section class="under-contents under-recruit">
   <div class="under-contents__inner">
     <h1 class="under-contents__ttl">
-      <div class="under-contents__ttl__en">Recruit</div>
-      <div class="under-contents__ttl__ja">採用情報</div>
+      <div class="under-contents__ttl__en fadein">Recruit</div>
+      <div class="under-contents__ttl__ja fadein">採用情報</div>
     </h1>
   </div>
 </section>
 <section class="human">
   <div class="human__inner">
     <h2 class="human__ttl">
-      <div class="human__ttl__en">Human</div>
-      <div class="human__ttl__jp">求める人材</div>
+      <div class="human__ttl__en fadein">Human</div>
+      <div class="human__ttl__jp fadein">求める人材</div>
     </h2>
     <div class="human__detail">
       <div class="human__detail__inner">
@@ -20,12 +20,12 @@
             <div class="colum">
               <div class="human__detail__box__contents col-md-6">
                 <div class="human__detail__box__contents__inner">
-                  <p class="human__detail__box__contents__ttl">共に挑戦してくれる「仲間」を<br/>探しています</p>
-                  <p class="human__detail__box__contents__info">時代の変化に対応し、我々のビジネスも変化を続けてまいりました。Society 5.0と呼ばれるこれからの社会。目覚ましい技術革新を背景に、これまでの常識が覆される時代になると言われています。そのような時代だからこそ、世の常識に縛られず、自分の目で本質を見抜ける人材を求めています。</p><a href="http://">
-                    <div class="btn btn-outline-dark btn-block btn-lg">詳しくはこちら</div></a>
+                  <p class="human__detail__box__contents__ttl fadein">共に挑戦してくれる「仲間」を<br/>探しています</p>
+                  <p class="human__detail__box__contents__info fadein">時代の変化に対応し、我々のビジネスも変化を続けてまいりました。Society 5.0と呼ばれるこれからの社会。目覚ましい技術革新を背景に、これまでの常識が覆される時代になると言われています。そのような時代だからこそ、世の常識に縛られず、自分の目で本質を見抜ける人材を求めています。</p><a href="http://">
+                    <div class="btn btn-outline-dark btn-block btn-lg fadein">詳しくはこちら</div></a>
                 </div>
               </div>
-              <div class="human__detail__box__img col-md-6"></div>
+              <div class="human__detail__box__img col-md-6 fadein"></div>
             </div>
           </div>
         </div>
@@ -36,10 +36,10 @@
 <section class="interview">
   <div class="interview__inner">
     <h2 class="interview__ttl">
-      <div class="interview__ttl__en">Interview</div>
-      <div class="interview__ttl__jp">インタビュー</div>
+      <div class="interview__ttl__en fadein">Interview</div>
+      <div class="interview__ttl__jp fadein">インタビュー</div>
     </h2>
-    <div class="row"><a class="interview__box col-3 member-01" href="http://">
+    <div class="row fadein"><a class="interview__box col-3 member-01" href="http://">
         <div class="member-info">
           <p class="member-info__name"><span class="jp">水野 涼子</span><span class="en">Mizuno Ryouko</span></p>
           <p class="member-info__department">金属・鉄鋼事業部</p>
@@ -59,7 +59,7 @@
   </div>
 </section>
 <section class="application">
-  <div class="application__inner">
+  <div class="application__inner fadein">
     <h2 class="application__ttl">
       <div class="application__ttl__en">Application</div>
       <div class="application__ttl__jp">募集要項</div>
@@ -117,10 +117,10 @@
 <section class="recruit-contact">
   <div class="recruit-contact__inner">
     <h2 class="recruit-contact__ttl">
-      <div class="recruit-contact__ttl__en">Contact</div>
-      <div class="recruit-contact__ttl__jp">お問い合わせ</div>
+      <div class="recruit-contact__ttl__en fadein">Contact</div>
+      <div class="recruit-contact__ttl__jp fadein">お問い合わせ</div>
     </h2>
-    <p class="recruit-contact__detail">ご意見・ご質問など、お問い合わせは、下記フォームからお願いいたします。</p>
-    <div class="recruit-contact__btn"><a href="http://">Contact Form</a></div>
+    <p class="recruit-contact__detail fadein">ご意見・ご質問など、お問い合わせは、下記フォームからお願いいたします。</p>
+    <div class="recruit-contact__btn fadein"><a href="http://">Contact Form</a></div>
   </div>
 </section><?php get_footer();?>

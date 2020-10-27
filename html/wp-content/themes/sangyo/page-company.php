@@ -2,13 +2,13 @@
 <section class="under-contents under-company">
   <div class="under-contents__inner">
     <h1 class="under-contents__ttl">
-      <div class="under-contents__ttl__en">Company</div>
-      <div class="under-contents__ttl__ja">会社案内</div>
+      <div class="under-contents__ttl__en fadein">Company</div>
+      <div class="under-contents__ttl__ja fadein">会社案内</div>
     </h1>
   </div>
 </section>
 <section class="company">
-  <div class="company__inner">
+  <div class="company__inner fadein">
     <h2 class="under-sub-ttl company">会社概要</h2>
     <dl>
       <dt> 会社名</dt>
@@ -62,7 +62,7 @@
       <div class="btn">海外拠点一覧</div>
     </btn-wrap>
   </div>
-  <div class="bg-gray-wrap company__inner">
+  <div class="bg-gray-wrap company__inner fadein">
     <h2 class="under-sub-ttl company">沿 革</h2>
     <dl>
       <dt>2007年</dt>
@@ -105,7 +105,7 @@
       <dd>4月　開設許可を待って第二工場(木材加工専用)増設<br/>9月　追加増資予定　工場施設内にショールームを開設</dd>
     </dl>
   </div>
-  <div class="map">
+  <div class="map fadein">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.006798324641!2d140.0608869157598!3d35.652204139169704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x602283d38f8107fd%3A0x407fb58c994de1f4!2z44CSMjYyLTAwMjMg5Y2D6JGJ55yM5Y2D6JGJ5biC6Iqx6KaL5bed5Yy65qSc6KaL5bed55S677yR5LiB55uu77yV77yZ77yR4oiS77yS!5e0!3m2!1sja!2sjp!4v1566869473557!5m2!1sja!2sjp" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
   </div>
 </section><?php get_footer();?>
