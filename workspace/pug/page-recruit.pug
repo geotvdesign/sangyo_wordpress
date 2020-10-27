@@ -4,7 +4,7 @@ section.under-contents.under-recruit
         h1.under-contents__ttl
             .under-contents__ttl__en.fadein Recruit
             .under-contents__ttl__ja.fadein 採用情報
-section.human
+section.human#human
     .human__inner
         h2.human__ttl
             .human__ttl__en.fadein Human
@@ -20,10 +20,8 @@ section.human
                                                                         br
                                                                         |探しています
                                     p.human__detail__box__contents__info.fadein 時代の変化に対応し、我々のビジネスも変化を続けてまいりました。Society 5.0と呼ばれるこれからの社会。目覚ましい技術革新を背景に、これまでの常識が覆される時代になると言われています。そのような時代だからこそ、世の常識に縛られず、自分の目で本質を見抜ける人材を求めています。
-                                    a(href="http://")
-                                        .btn.btn-outline-dark.btn-block.btn-lg.fadein 詳しくはこちら
                             .human__detail__box__img.col-md-6.fadein
-section.interview
+section.interview#interview
     .interview__inner
         h2.interview__ttl
             .interview__ttl__en.fadein Interview
@@ -53,7 +51,7 @@ section.interview
                         span.jp 近藤 真一
                         span.en Kondo Shinichi
                     p.member-info__department エネルギー・化学品事業部
-section.application
+section.application#application
     .application__inner.fadein
         h2.application__ttl
             .application__ttl__en Application
@@ -113,5 +111,5 @@ section.recruit-contact
             .recruit-contact__ttl__jp.fadein お問い合わせ
         p.recruit-contact__detail.fadein ご意見・ご質問など、お問い合わせは、下記フォームからお願いいたします。
         .recruit-contact__btn.fadein
-            a(href="http://") Contact Form
+            a(href!="<?php echo home_url() ?>/contact/") Contact Form
 |<?php get_footer();?>

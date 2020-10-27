@@ -16,7 +16,7 @@
     <div class="col-md-3">
       <h2 class="top-infomation__ttl">
         <div class="top-infomation__ttl__en">News</div>
-        <div class="top-infomation__ttl__jp">最新情報</div><a href="./news">
+        <div class="top-infomation__ttl__jp">最新情報</div><a href="<?php echo home_url() ?>/news">
           <div class="btn btn-outline-dark btn-lg mt-5 p-3 f-12">一覧を見る</div></a>
       </h2>
     </div>
@@ -52,7 +52,7 @@
               <div class="top-about__detail__box__contents col-md-6">
                 <div class="top-about__detail__box__contents__inner">
                   <p class="top-about__detail__box__contents__ttl">貿易会社として世界中に拠点を持ち、<br/>独自のルートを開拓</p>
-                  <p class="top-about__detail__box__contents__info">大手貿易会社と比べ、独自の貿易ルートを開拓。コストカットを実現し、長年培ったノウハウを活用し幅広い商材を取り使っています。商材も金属やエネルギーなど社会インフラを支えるものから、消費者に直接届く食料品、医療従事者が使う専門機器まで取り扱っています。</p><a href="http://">
+                  <p class="top-about__detail__box__contents__info">大手貿易会社と比べ、独自の貿易ルートを開拓。コストカットを実現し、長年培ったノウハウを活用し幅広い商材を取り使っています。商材も金属やエネルギーなど社会インフラを支えるものから、消費者に直接届く食料品、医療従事者が使う専門機器まで取り扱っています。</p><a href="<?php echo home_url() ?>/about/">
                     <div class="btn btn-outline-dark btn-block btn-lg">詳しくはこちら</div></a>
                 </div>
               </div>
@@ -71,14 +71,14 @@
       <div class="top-business__ttl__jp fadein">事業内容</div>
     </h2>
     <div class="colum fadein">
-      <div class="top-business__box col-md-6"><a href="./metal/">
+      <div class="top-business__box col-md-6"><a href="<?php echo home_url() ?>/metal/">
           <div class="top-business__box__bnr top-metal">
             <div class="top-business__box__bnr__inner">
               <div class="top-business__box__bnr__name fadein">金属・鉄鋼部門</div>
               <p class="top-business__box__bnr__info fadein">社会インフラを支える鉄と金属</p>
             </div>
           </div></a></div>
-      <div class="top-business__box col-md-6"><a href="./food/">
+      <div class="top-business__box col-md-6"><a href="<?php echo home_url() ?>/food/">
           <div class="top-business__box__bnr top-food">
             <div class="top-business__box__bnr__inner">
               <div class="top-business__box__bnr__name fadein">食料部門</div>
@@ -87,14 +87,14 @@
           </div></a></div>
     </div>
     <div class="colum fadein">
-      <div class="top-business__box col-md-6"><a href="./machine/">
+      <div class="top-business__box col-md-6"><a href="<?php echo home_url() ?>/machine/">
           <div class="top-business__box__bnr top-machine">
             <div class="top-business__box__bnr__inner">
               <div class="top-business__box__bnr__name fadein">機械部門</div>
               <p class="top-business__box__bnr__info fadein">自動車から専門機器まで</p>
             </div>
           </div></a></div>
-      <div class="top-business__box col-md-6"><a href="./energy/">
+      <div class="top-business__box col-md-6"><a href="<?php echo home_url() ?>/energy/">
           <div class="top-business__box__bnr top-energy">
             <div class="top-business__box__bnr__inner">
               <div class="top-business__box__bnr__name fadein">エネルギー・化学品部門</div>
@@ -128,7 +128,7 @@
           </div></a></div><?php endwhile; ?>
       <?php wp_reset_postdata(); endif; ?>
     </div>
-    <div class="btn-wrap fadein"><a href="./blog">
+    <div class="btn-wrap fadein"><a href="<?php echo home_url() ?>/blog">
         <div class="btn btn-outline-dark btn-lg mt-5 p-3 f-12">一覧を見る</div></a></div>
   </div>
 </section>
@@ -138,13 +138,13 @@
       <div class="top-recruit__ttl__en fadein">Recruit</div>
       <div class="top-recruit__ttl__jp fadein">採用情報</div>
     </h2>
-    <div class="colum fadein"><a class="top-recruit__box human col-4" href="http://">
+    <div class="colum fadein"><a class="top-recruit__box human col-4" href="<?php echo home_url() ?>/recruit#human">
         <div class="top-recruit__box__figure">
           <h3 class="top-recruit__box__figure__copy fadein">求める人材</h3>
-        </div></a><a class="top-recruit__box interview col-4 col-md-offset-3" href="http://">
+        </div></a><a class="top-recruit__box interview col-4 col-md-offset-3" href="<?php echo home_url() ?>/recruit#interview">
         <div class="top-recruit__box__figure">
           <h3 class="top-recruit__box__figure__copy fadein">インタビュー</h3>
-        </div></a><a class="top-recruit__box application col-4 col-md-offset-3" href="http://">
+        </div></a><a class="top-recruit__box application col-4 col-md-offset-3" href="<?php echo home_url() ?>/recruit#application">
         <div class="top-recruit__box__figure">
           <h3 class="top-recruit__box__figure__copy fadein">募集要項</h3>
         </div></a></div>
@@ -157,6 +157,6 @@
       <div class="top-contact__ttl__jp fadein">お問い合わせ</div>
     </h2>
     <p class="top-contact__detail fadein">ご意見・ご質問など、お問い合わせは、下記フォームからお願いいたします。</p>
-    <div class="top-contact__btn fadein"><a href="http://">Contact Form</a></div>
+    <div class="top-contact__btn fadein"><a href="<?php echo home_url() ?>/contact/">Contact Form</a></div>
   </div>
 </section><?php get_footer();?>

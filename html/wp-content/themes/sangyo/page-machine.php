@@ -2,8 +2,8 @@
 <section class="under-contents under-machine">
   <div class="under-contents__inner">
     <h1 class="under-contents__ttl">
-      <div class="under-contents__ttl__en fadein">Machine</div>
-      <div class="under-contents__ttl__ja fadein">機械部門</div>
+      <div class="under-contents__ttl__en">Machine</div>
+      <div class="under-contents__ttl__ja">機械部門</div>
     </h1>
   </div>
 </section>
@@ -90,6 +90,6 @@
       <div class="biz-contact__ttl__jp fadein">お問い合わせ</div>
     </h2>
     <p class="biz-contact__detail fadein">ご意見・ご質問など、お問い合わせは、下記フォームからお願いいたします。</p>
-    <div class="biz-contact__btn fadein"><a href="http://">Contact Form</a></div>
+    <div class="biz-contact__btn fadein"><a href="<?php echo home_url() ?>/contact/">Contact Form</a></div>
   </div>
 </section><?php get_footer();?>

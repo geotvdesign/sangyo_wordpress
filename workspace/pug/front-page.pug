@@ -18,7 +18,7 @@ section.top-infomation
             h2.top-infomation__ttl
                 .top-infomation__ttl__en News
                 .top-infomation__ttl__jp 最新情報
-                a(href!="./news")
+                a(href!="<?php echo home_url() ?>/news")
                     .btn.btn-outline-dark.btn-lg.mt-5.p-3.f-12 一覧を見る
         .col-md-9
             |<?php
@@ -72,7 +72,7 @@ section.top-about
                                                                             br
                                                                             |独自のルートを開拓
                                     p.top-about__detail__box__contents__info 大手貿易会社と比べ、独自の貿易ルートを開拓。コストカットを実現し、長年培ったノウハウを活用し幅広い商材を取り使っています。商材も金属やエネルギーなど社会インフラを支えるものから、消費者に直接届く食料品、医療従事者が使う専門機器まで取り扱っています。
-                                    a(href="http://")
+                                    a(href!="<?php echo home_url() ?>/about/")
                                         .btn.btn-outline-dark.btn-block.btn-lg 詳しくはこちら
                             .top-about__detail__box__img.col-md-6
                                 //- img(src="https://placehold.jp/554x436.png", alt="")
@@ -126,26 +126,26 @@ section.top-business
             .top-business__ttl__jp.fadein 事業内容
         .colum.fadein
             .top-business__box.col-md-6
-                a(href="./metal/")
+                a(href!="<?php echo home_url() ?>/metal/")
                     .top-business__box__bnr.top-metal
                         .top-business__box__bnr__inner
                             .top-business__box__bnr__name.fadein 金属・鉄鋼部門
                             p.top-business__box__bnr__info.fadein 社会インフラを支える鉄と金属
             .top-business__box.col-md-6
-                a(href="./food/")
+                a(href!="<?php echo home_url() ?>/food/")
                     .top-business__box__bnr.top-food
                         .top-business__box__bnr__inner
                             .top-business__box__bnr__name.fadein 食料部門
                             p.top-business__box__bnr__info.fadein 暮らしを支える食料
         .colum.fadein
             .top-business__box.col-md-6
-                a(href="./machine/")
+                a(href!="<?php echo home_url() ?>/machine/")
                     .top-business__box__bnr.top-machine
                         .top-business__box__bnr__inner
                             .top-business__box__bnr__name.fadein 機械部門
                             p.top-business__box__bnr__info.fadein 自動車から専門機器まで
             .top-business__box.col-md-6
-                a(href="./energy/")
+                a(href!="<?php echo home_url() ?>/energy/")
                     .top-business__box__bnr.top-energy
                         .top-business__box__bnr__inner
                             .top-business__box__bnr__name.fadein エネルギー・化学品部門
@@ -177,7 +177,7 @@ section.top-blog
             |<?php endwhile; ?>
             |<?php wp_reset_postdata(); endif; ?>
         .btn-wrap.fadein
-            a(href!="./blog")
+            a(href!="<?php echo home_url() ?>/blog")
                 .btn.btn-outline-dark.btn-lg.mt-5.p-3.f-12 一覧を見る
 section.top-recruit
     .top-recruit__inner
@@ -185,13 +185,13 @@ section.top-recruit
             .top-recruit__ttl__en.fadein Recruit
             .top-recruit__ttl__jp.fadein 採用情報
         .colum.fadein
-            a(href="http://").top-recruit__box.human.col-4
+            a(href!="<?php echo home_url() ?>/recruit#human").top-recruit__box.human.col-4
                 .top-recruit__box__figure
                     h3.top-recruit__box__figure__copy.fadein 求める人材
-            a(href="http://").top-recruit__box.interview.col-4.col-md-offset-3
+            a(href!="<?php echo home_url() ?>/recruit#interview").top-recruit__box.interview.col-4.col-md-offset-3
                 .top-recruit__box__figure
                     h3.top-recruit__box__figure__copy.fadein インタビュー
-            a(href="http://").top-recruit__box.application.col-4.col-md-offset-3
+            a(href!="<?php echo home_url() ?>/recruit#application").top-recruit__box.application.col-4.col-md-offset-3
                 .top-recruit__box__figure
                     h3.top-recruit__box__figure__copy.fadein 募集要項
 section.top-contact
@@ -201,5 +201,5 @@ section.top-contact
             .top-contact__ttl__jp.fadein お問い合わせ
         p.top-contact__detail.fadein ご意見・ご質問など、お問い合わせは、下記フォームからお願いいたします。
         .top-contact__btn.fadein
-            a(href="http://") Contact Form
+            a(href!="<?php echo home_url() ?>/contact/") Contact Form
 |<?php get_footer();?>

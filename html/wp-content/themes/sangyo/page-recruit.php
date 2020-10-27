@@ -7,7 +7,7 @@
     </h1>
   </div>
 </section>
-<section class="human">
+<section class="human" id="human">
   <div class="human__inner">
     <h2 class="human__ttl">
       <div class="human__ttl__en fadein">Human</div>
@@ -21,8 +21,7 @@
               <div class="human__detail__box__contents col-md-6">
                 <div class="human__detail__box__contents__inner">
                   <p class="human__detail__box__contents__ttl fadein">共に挑戦してくれる「仲間」を<br/>探しています</p>
-                  <p class="human__detail__box__contents__info fadein">時代の変化に対応し、我々のビジネスも変化を続けてまいりました。Society 5.0と呼ばれるこれからの社会。目覚ましい技術革新を背景に、これまでの常識が覆される時代になると言われています。そのような時代だからこそ、世の常識に縛られず、自分の目で本質を見抜ける人材を求めています。</p><a href="http://">
-                    <div class="btn btn-outline-dark btn-block btn-lg fadein">詳しくはこちら</div></a>
+                  <p class="human__detail__box__contents__info fadein">時代の変化に対応し、我々のビジネスも変化を続けてまいりました。Society 5.0と呼ばれるこれからの社会。目覚ましい技術革新を背景に、これまでの常識が覆される時代になると言われています。そのような時代だからこそ、世の常識に縛られず、自分の目で本質を見抜ける人材を求めています。</p>
                 </div>
               </div>
               <div class="human__detail__box__img col-md-6 fadein"></div>
@@ -33,7 +32,7 @@
     </div>
   </div>
 </section>
-<section class="interview">
+<section class="interview" id="interview">
   <div class="interview__inner">
     <h2 class="interview__ttl">
       <div class="interview__ttl__en fadein">Interview</div>
@@ -58,7 +57,7 @@
         </div></a></div>
   </div>
 </section>
-<section class="application">
+<section class="application" id="application">
   <div class="application__inner fadein">
     <h2 class="application__ttl">
       <div class="application__ttl__en">Application</div>
@@ -121,6 +120,6 @@
       <div class="recruit-contact__ttl__jp fadein">お問い合わせ</div>
     </h2>
     <p class="recruit-contact__detail fadein">ご意見・ご質問など、お問い合わせは、下記フォームからお願いいたします。</p>
-    <div class="recruit-contact__btn fadein"><a href="http://">Contact Form</a></div>
+    <div class="recruit-contact__btn fadein"><a href="<?php echo home_url() ?>/contact/">Contact Form</a></div>
   </div>
 </section><?php get_footer();?>

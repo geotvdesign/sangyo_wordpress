@@ -2,8 +2,8 @@
 <section class="under-contents under-business">
   <div class="under-contents__inner">
     <h1 class="under-contents__ttl">
-      <div class="under-contents__ttl__en fadein">Business</div>
-      <div class="under-contents__ttl__ja fadein">事業内容</div>
+      <div class="under-contents__ttl__en">Business</div>
+      <div class="under-contents__ttl__ja">事業内容</div>
     </h1>
   </div>
 </section>
