@@ -14,7 +14,7 @@
 <div id="wrapper">
 <header class="header">
   <div class="header__inner">
-    <div class="header__logo"><a href="<?php echo home_url() ?>"><img src="https://placehold.jp/160x82.png" alt="サンギョー貿易株式会社"/></a></div>
+    <div class="header__logo"><a href="<?php echo home_url() ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/header_logo.png?2" alt="サンギョー貿易株式会社" width="157"/></a></div>
     <div class="header__contact"></div>
     <nav class="header__nav">
       <ul class="header__nav__menu">

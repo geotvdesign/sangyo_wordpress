@@ -4,7 +4,7 @@
 <footer class="footer">
   <div class="footer__inner">
     <div class="footer__info fl">
-      <div class="footer__info__logo"><a href="http://"><img src="https://placehold.jp/182x137.png" alt="サンギョー貿易株式会社"/></a></div>
+      <div class="footer__info__logo"><a href="http://"><img src="<?php echo get_template_directory_uri(); ?>/images/footer_logo.png" alt="サンギョー貿易株式会社" width="182"/></a></div>
       <div class="footer__info__address">〒262-0023<br/>千葉県千葉市花見川区検見川町1-591-2<br/>TEL 043-441-7008 / FAX 0434-41-7015</div>
     </div>
     <div class="footer__nav fr">

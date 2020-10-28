@@ -18,7 +18,7 @@ header.header
     .header__inner
         .header__logo
             a(href!="<?php echo home_url() ?>")
-                img(src="https://placehold.jp/160x82.png", alt="サンギョー貿易株式会社")
+                img(src!="<?php echo get_template_directory_uri(); ?>/images/header_logo.png?2", alt="サンギョー貿易株式会社" ,width="157")
         .header__contact
         nav.header__nav
             ul.header__nav__menu
