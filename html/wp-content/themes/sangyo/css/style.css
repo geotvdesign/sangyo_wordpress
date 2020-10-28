@@ -128,6 +128,68 @@ ol, ul {
   transform: translate(0, 0);
 }
 
+/*タイトルと背景画像を遅延表示*/
+.top-main-visual__copy__en {
+  opacity: 0;
+  transition: all 2000ms;
+}
+
+.top-main-visual__copy__en.show {
+  opacity: 1;
+}
+
+.top-main-visual__copy__jp {
+  opacity: 0;
+  transition: all 2000ms;
+}
+
+.top-main-visual__copy__jp.show {
+  opacity: 1;
+}
+
+.under-contents__ttl__en {
+  position: absolute;
+  top: 40px;
+  left: -50px;
+  opacity: 0;
+  transition: all 1000ms;
+  width: 600px;
+}
+
+.under-contents__ttl__en.show {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  opacity: 1;
+  width: 600px;
+}
+
+.under-contents__ttl__ja {
+  position: absolute;
+  top: 110px;
+  left: -50px;
+  opacity: 0;
+  transition: all 1000ms;
+  width: 500px;
+}
+
+.under-contents__ttl__ja.show {
+  position: absolute;
+  top: 110px;
+  left: 0;
+  opacity: 1;
+  width: 500px;
+}
+
+.under-contents {
+  opacity: 0;
+  transition: all 1000ms;
+}
+
+.under-contents.show {
+  opacity: 1;
+}
+
 .header {
   position: absolute;
   top: 0;

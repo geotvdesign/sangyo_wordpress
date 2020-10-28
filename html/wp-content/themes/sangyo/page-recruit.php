@@ -2,8 +2,8 @@
 <section class="under-contents under-recruit">
   <div class="under-contents__inner">
     <h1 class="under-contents__ttl">
-      <div class="under-contents__ttl__en fadein">Recruit</div>
-      <div class="under-contents__ttl__ja fadein">採用情報</div>
+      <div class="under-contents__ttl__en">Recruit</div>
+      <div class="under-contents__ttl__ja">採用情報</div>
     </h1>
   </div>
 </section>

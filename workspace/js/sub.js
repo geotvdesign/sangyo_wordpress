@@ -11,3 +11,22 @@ $(function(){
         });
     });
 });
+
+/*タイトルと背景画像を遅延表示*/
+$(function(){
+    $('.top-main-visual__copy__en').delay(800).queue(function(){
+        $(this).addClass("show");
+    });
+    $('.top-main-visual__copy__jp').delay(850).queue(function(){
+        $(this).addClass("show");
+    });
+    $('.under-contents__ttl__en').delay(800).queue(function(){
+        $(this).addClass("show");
+    });
+    $('.under-contents__ttl__ja').delay(850).queue(function(){
+        $(this).addClass("show");
+    });
+    $('.under-contents').delay(850).queue(function(){
+        $(this).addClass("show");
+    });
+});

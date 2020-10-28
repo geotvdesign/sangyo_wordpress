@@ -2,8 +2,8 @@
 <section class="top-main-visual">
   <div class="top-main-visual__inner">
     <h1 class="top-main-visual__copy">
-      <div class="top-main-visual__copy__en fadein-left">Change the world with trade</div>
-      <div class="top-main-visual__copy__jp fadein-left">貿易で世界を変える</div>
+      <div class="top-main-visual__copy__en">Change the world with trade</div>
+      <div class="top-main-visual__copy__jp">貿易で世界を変える</div>
     </h1>
     <div class="scroll-arrow fadein-left"><a href="http://"><span></span><span></span><span></span>
         <div class="txt">Scroll</div></a></div>
