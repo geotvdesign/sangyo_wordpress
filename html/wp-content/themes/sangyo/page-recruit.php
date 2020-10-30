@@ -38,19 +38,19 @@
       <div class="interview__ttl__en fadein">Interview</div>
       <div class="interview__ttl__jp fadein">インタビュー</div>
     </h2>
-    <div class="row fadein"><a class="interview__box col-3 member-01" href="http://">
+    <div class="row fadein"><a class="interview__box col-3 member-01" href="<?php echo home_url() ?>/blog/%e5%85%88%e8%bc%a9%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%93%e3%83%a5%e3%83%bc%e3%81%9d%e3%81%ae%ef%bc%94/">
         <div class="member-info">
           <p class="member-info__name"><span class="jp">水野 涼子</span><span class="en">Mizuno Ryouko</span></p>
           <p class="member-info__department">金属・鉄鋼事業部</p>
-        </div></a><a class="interview__box col-3 member-02" href="http://">
+        </div></a><a class="interview__box col-3 member-02" href="<?php echo home_url() ?>/blog/%e5%85%88%e8%bc%a9%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%93%e3%83%a5%e3%83%bc%e3%81%9d%e3%81%ae%ef%bc%92/">
         <div class="member-info">
           <p class="member-info__name"><span class="jp">秋山 沙耶</span><span class="en">Akiyama Saya</span></p>
           <p class="member-info__department">食料事業部</p>
-        </div></a><a class="interview__box col-3 member-03" href="http://">
+        </div></a><a class="interview__box col-3 member-03" href="<?php echo home_url() ?>/blog/%e5%85%88%e8%bc%a9%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%93%e3%83%a5%e3%83%bc%e3%81%9d%e3%81%ae%ef%bc%95/">
         <div class="member-info">
           <p class="member-info__name"><span class="jp">長谷川 健</span><span class="en">Hasegawa Ken</span></p>
           <p class="member-info__department">機械事業部</p>
-        </div></a><a class="interview__box col-3 member-04" href="http://">
+        </div></a><a class="interview__box col-3 member-04" href="<?php echo home_url() ?>/blog/%e5%85%88%e8%bc%a9%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%93%e3%83%a5%e3%83%bc%e3%81%9d%e3%81%ae%ef%bc%93/">
         <div class="member-info">
           <p class="member-info__name"><span class="jp">近藤 真一</span><span class="en">Kondo Shinichi</span></p>
           <p class="member-info__department">エネルギー・化学品事業部</p>
