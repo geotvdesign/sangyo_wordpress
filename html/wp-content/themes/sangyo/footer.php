@@ -14,7 +14,6 @@
         <li class="footer__nav__menu__item"><a href="<?php echo home_url() ?>/about">当社の強み</a></li>
         <li class="footer__nav__menu__item"><a href="<?php echo home_url() ?>/news">最新情報</a></li>
         <li class="footer__nav__menu__item"><a href="<?php echo home_url() ?>/blog">ブログ</a></li>
-        <li class="footer__nav__menu__item"><a href="<?php echo home_url() ?>/sitemap">サイトマップ</a></li>
         <li class="footer__nav__menu__item"><a href="<?php echo home_url() ?>/contact">お問い合わせ</a></li>
       </ul>
       <ul class="footer__nav__menu col-lg-3">
