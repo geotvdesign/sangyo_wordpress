@@ -8,38 +8,39 @@ footer.footer
                     .footer__info__logo
                         a(href="http://")
                             img(src!="<?php echo get_template_directory_uri(); ?>/images/footer_logo.png", alt="サンギョー貿易株式会社", width="182")
+                    .footer__info_name サンギョー貿易株式会社
                     .footer__info__address
-                        |〒262-0023
+                        |〒000-0000
                         br
-                        | 千葉県千葉市花見川区検見川町1-591-2
+                        | 東京都〇〇区〇〇〇〇町1-111-1
                         br
-                        | TEL 043-441-7008 / FAX 0434-41-7015
+                        | TEL 000-000-0000 / FAX 000-000-0000
                 .footer__nav.fr
                     ul.footer__nav__menu.col-lg-3
-                        li.footer__nav__menu__item: a(href="http://") トップページ
-                        li.footer__nav__menu__item: a(href="http://") 当社の強み
-                        li.footer__nav__menu__item: a(href="http://") 最新情報
-                        li.footer__nav__menu__item: a(href="http://") ブログ
-                        li.footer__nav__menu__item: a(href="http://") サイトマップ
-                        li.footer__nav__menu__item: a(href="http://") お問い合わせ
+                        li.footer__nav__menu__item: a(href!="<?php echo home_url() ?>/.") トップページ
+                        li.footer__nav__menu__item: a(href!="<?php echo home_url() ?>/about") 当社の強み
+                        li.footer__nav__menu__item: a(href!="<?php echo home_url() ?>/news") 最新情報
+                        li.footer__nav__menu__item: a(href!="<?php echo home_url() ?>/blog") ブログ
+                        li.footer__nav__menu__item: a(href!="<?php echo home_url() ?>/sitemap") サイトマップ
+                        li.footer__nav__menu__item: a(href!="<?php echo home_url() ?>/contact") お問い合わせ
                     ul.footer__nav__menu.col-lg-3
-                        li.footer__nav__menu__item: a(href="http://") 事業内容
+                        li.footer__nav__menu__item: a(href!="<?php echo home_url() ?>/business") 事業内容
                             ul.sub
-                                li.sub__item: a(href="http://") 金属・鉄鋼部門
-                                li.sub__item: a(href="http://") 食料部門
-                                li.sub__item: a(href="http://") 機械部門
-                                li.sub__item: a(href="http://") エネルギー・化学品部門
+                                li.sub__item: a(href!="<?php echo home_url() ?>/metal") 金属・鉄鋼部門
+                                li.sub__item: a(href!="<?php echo home_url() ?>/food") 食料部門
+                                li.sub__item: a(href!="<?php echo home_url() ?>/machine") 機械部門
+                                li.sub__item: a(href!="<?php echo home_url() ?>/energy") エネルギー・化学品部門
                     ul.footer__nav__menu.col-lg-3
-                        li.footer__nav__menu__item: a(href="http://") 会社案内
+                        li.footer__nav__menu__item: a(href!="<?php echo home_url() ?>/company") 会社案内
                             ul.sub
-                                li.sub__item: a(href="http://") 会社概要
-                                li.sub__item: a(href="http://") 沿革
+                                li.sub__item: a(href!="<?php echo home_url() ?>/company") 会社概要
+                                li.sub__item: a(href!="<?php echo home_url() ?>/company") 沿革
                     ul.footer__nav__menu.col-lg-3
-                        li.footer__nav__menu__item: a(href="http://") 採用情報
+                        li.footer__nav__menu__item: a(href!="<?php echo home_url() ?>/recruit") 採用情報
                             ul.sub
-                                li.sub__item: a(href="http://") 求める人材
-                                li.sub__item: a(href="http://") インタビュー
-                                li.sub__item: a(href="http://") 募集要項
+                                li.sub__item: a(href!="<?php echo home_url() ?>/recruit#human") 求める人材
+                                li.sub__item: a(href!="<?php echo home_url() ?>/recruit#interview") インタビュー
+                                li.sub__item: a(href!="<?php echo home_url() ?>/recruit#application") 募集要項
                 .footer__copyright (C) 2020 SANGYO BOEKI .CO.,LTD
                 <!-- jQuery、Popper.js、Bootstrap JS -->
                 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

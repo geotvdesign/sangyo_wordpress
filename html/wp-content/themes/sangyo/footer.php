@@ -5,39 +5,40 @@
   <div class="footer__inner">
     <div class="footer__info fl">
       <div class="footer__info__logo"><a href="http://"><img src="<?php echo get_template_directory_uri(); ?>/images/footer_logo.png" alt="サンギョー貿易株式会社" width="182"/></a></div>
-      <div class="footer__info__address">〒262-0023<br/>千葉県千葉市花見川区検見川町1-591-2<br/>TEL 043-441-7008 / FAX 0434-41-7015</div>
+      <div class="footer__info_name">サンギョー貿易株式会社</div>
+      <div class="footer__info__address">〒000-0000<br/>東京都〇〇区〇〇〇〇町1-111-1<br/>TEL 000-000-0000 / FAX 000-000-0000</div>
     </div>
     <div class="footer__nav fr">
       <ul class="footer__nav__menu col-lg-3">
-        <li class="footer__nav__menu__item"><a href="http://">トップページ</a></li>
-        <li class="footer__nav__menu__item"><a href="http://">当社の強み</a></li>
-        <li class="footer__nav__menu__item"><a href="http://">最新情報</a></li>
-        <li class="footer__nav__menu__item"><a href="http://">ブログ</a></li>
-        <li class="footer__nav__menu__item"><a href="http://">サイトマップ</a></li>
-        <li class="footer__nav__menu__item"><a href="http://">お問い合わせ</a></li>
+        <li class="footer__nav__menu__item"><a href="<?php echo home_url() ?>/.">トップページ</a></li>
+        <li class="footer__nav__menu__item"><a href="<?php echo home_url() ?>/about">当社の強み</a></li>
+        <li class="footer__nav__menu__item"><a href="<?php echo home_url() ?>/news">最新情報</a></li>
+        <li class="footer__nav__menu__item"><a href="<?php echo home_url() ?>/blog">ブログ</a></li>
+        <li class="footer__nav__menu__item"><a href="<?php echo home_url() ?>/sitemap">サイトマップ</a></li>
+        <li class="footer__nav__menu__item"><a href="<?php echo home_url() ?>/contact">お問い合わせ</a></li>
       </ul>
       <ul class="footer__nav__menu col-lg-3">
-        <li class="footer__nav__menu__item"><a href="http://">事業内容
+        <li class="footer__nav__menu__item"><a href="<?php echo home_url() ?>/business">事業内容
             <ul class="sub">
-              <li class="sub__item"><a href="http://">金属・鉄鋼部門</a></li>
-              <li class="sub__item"><a href="http://">食料部門</a></li>
-              <li class="sub__item"><a href="http://">機械部門</a></li>
-              <li class="sub__item"><a href="http://">エネルギー・化学品部門</a></li>
+              <li class="sub__item"><a href="<?php echo home_url() ?>/metal">金属・鉄鋼部門</a></li>
+              <li class="sub__item"><a href="<?php echo home_url() ?>/food">食料部門</a></li>
+              <li class="sub__item"><a href="<?php echo home_url() ?>/machine">機械部門</a></li>
+              <li class="sub__item"><a href="<?php echo home_url() ?>/energy">エネルギー・化学品部門</a></li>
             </ul></a></li>
       </ul>
       <ul class="footer__nav__menu col-lg-3">
-        <li class="footer__nav__menu__item"><a href="http://">会社案内
+        <li class="footer__nav__menu__item"><a href="<?php echo home_url() ?>/company">会社案内
             <ul class="sub">
-              <li class="sub__item"><a href="http://">会社概要</a></li>
-              <li class="sub__item"><a href="http://">沿革</a></li>
+              <li class="sub__item"><a href="<?php echo home_url() ?>/company">会社概要</a></li>
+              <li class="sub__item"><a href="<?php echo home_url() ?>/company">沿革</a></li>
             </ul></a></li>
       </ul>
       <ul class="footer__nav__menu col-lg-3">
-        <li class="footer__nav__menu__item"><a href="http://">採用情報
+        <li class="footer__nav__menu__item"><a href="<?php echo home_url() ?>/recruit">採用情報
             <ul class="sub">
-              <li class="sub__item"><a href="http://">求める人材</a></li>
-              <li class="sub__item"><a href="http://">インタビュー</a></li>
-              <li class="sub__item"><a href="http://">募集要項</a></li>
+              <li class="sub__item"><a href="<?php echo home_url() ?>/recruit#human">求める人材</a></li>
+              <li class="sub__item"><a href="<?php echo home_url() ?>/recruit#interview">インタビュー</a></li>
+              <li class="sub__item"><a href="<?php echo home_url() ?>/recruit#application">募集要項</a></li>
             </ul></a></li>
       </ul>
     </div>
