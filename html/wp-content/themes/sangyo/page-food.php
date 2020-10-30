@@ -17,7 +17,7 @@
           <div class="biz-detail__box__contents col-md-6">
             <div class="biz-detail__box__contents__inner">
               <p class="biz-detail__box__contents__ttl fadein">世界中で<br/>さまざまな食料原料をトレード</p>
-              <p class="biz-detail__box__contents__info fadein">米国における穀物集荷会社の経営、中米におけるコーヒー精製・輸出会社への資本参加、カナダでの養豚・豚肉製造販売事業、ドールのアジア・青果物事業及びグローバル・加工食品事業など、安定的かつ継続的な原料供給の拠点を構築するため、産地での取り組みを進めております。一方、国内の食品加工事業のノウハウを成長するアジア諸国への展開に活かすことにも積極的に通り組んでおります。今後も引き続き、食料資源の確固たる供給体制を築いていくことで、社会に貢献したいと考えております。</p>
+              <p class="biz-detail__box__contents__info fadein">米国における穀物集荷会社の経営、中米におけるコーヒー精製・輸出会社への資本参加、カナダでの養豚・豚肉製造販売事業、アジア・青果物事業及びグローバル・加工食品事業など、安定的かつ継続的な原料供給の拠点を構築するため、産地での取り組みを進めております。一方、国内の食品加工事業のノウハウを成長するアジア諸国への展開に活かすことにも積極的に通り組んでおります。今後も引き続き、食料資源の確固たる供給体制を築いていくことで、社会に貢献したいと考えております。</p>
             </div>
           </div>
           <div class="biz-detail__box__img food-img01 col-md-6 fadein"></div>
@@ -30,7 +30,7 @@
           <div class="biz-detail__box__contents col-md-6">
             <div class="biz-detail__box__contents__inner">
               <p class="biz-detail__box__contents__ttl fadein">原料調達から<br/>ネットワークを活かした販売まで</p>
-              <p class="biz-detail__box__contents__info fadein">国内では、不二製油、プリマハム、伊藤忠製糖などの主要事業会社が食品製造・加工事業を行っており、また、海外展開においては、これまでの対日向け商品の製造事業に加え、現地市場向け商品の製造事業を行う企業への投資や共同事業の展開を推進しています。今後も日本の技術・ノウハウ・ブランドを活用し、現地パートナーと協力して海外展開を推進していきます。</p>
+              <p class="biz-detail__box__contents__info fadein">国内では、サンギョー製油、サンギョーハム、サンギョー製糖などの主要事業会社が食品製造・加工事業を行っており、また、海外展開においては、これまでの対日向け商品の製造事業に加え、現地市場向け商品の製造事業を行う企業への投資や共同事業の展開を推進しています。今後も日本の技術・ノウハウ・ブランドを活用し、現地パートナーと協力して海外展開を推進していきます。</p>
             </div>
           </div>
           <div class="biz-detail__box__img food-img02 col-md-6 fadein"></div>
@@ -76,7 +76,7 @@
       <div class="biz-contact__ttl__en fadein">Contact</div>
       <div class="biz-contact__ttl__jp fadein">お問い合わせ</div>
     </h2>
-    <p class="biz-contact__detail fadein">ご意見・ご質問など、お問い合わせは、下記フォームからお願いいたします。</p>
+    <p class="biz-contact__detail fadein">お問い合わせは、下記フォームからお願いいたします。</p>
     <div class="biz-contact__btn fadein"><a href="<?php echo home_url() ?>/contact/">Contact Form</a></div>
   </div>
 </section><?php get_footer();?>

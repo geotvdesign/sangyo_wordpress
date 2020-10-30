@@ -64,52 +64,36 @@
       <div class="application__ttl__jp">募集要項</div>
     </h2>
     <dl>
-      <dt> 会社名</dt>
-      <dd> ASTRO BLADE株式会社（英字登録 読み＝アストロブレード</dd>
+      <dt> 募集職種</dt>
+      <dd> 総合職（海外転勤をともなう）</dd>
     </dl>
     <dl>
-      <dt> 設　立</dt>
-      <dd> 平成19年5月</dd>
+      <dt> 勤務地</dt>
+      <dd> 本社（東京都〇〇区〇〇〇〇町1-111-1）ほか</dd>
     </dl>
     <dl>
-      <dt> 代表者</dt>
-      <dd> 代表取締役　見崎 操</dd>
+      <dt> 勤務時間</dt>
+      <dd> 平日：9：00~18：00</dd>
     </dl>
     <dl>
-      <dt> 本　店</dt>
-      <dd> 千葉県千葉市花見川区検見川町1-591-2<br/>TEL：<span class="tel-num-white">043-441-7008</span>　<br class="sp-only">FAX：<span class="tel-num-white">0434-41-7015</span></dd>
+      <dt> 休日・休暇</dt>
+      <dd> 休日：隔週週休2日制（隔週土曜日、日曜日）、祝日<br/>休暇：夏季、年末年始、有給、慶弔<br/>※産前産後、育児、介護、出産立会休暇あり<br/>年間休日　105日</dd>
     </dl>
     <dl>
-      <dt> 研究所</dt>
-      <dd> 埼玉県草加市青柳1-5</dd>
+      <dt> 年収・給与</dt>
+      <dd> 月給20万1,000円～（一律手当含む）<br/>※年齢・経験を考慮し決定致します<br/>※試用期間：3ケ月あり</dd>
     </dl>
     <dl>
-      <dt> 工　場</dt>
-      <dd> 中国遼寧省大連市甘井子区毛墓子村北海工業地区</dd>
+      <dt> 仕事内容</dt>
+      <dd> 弊社事業に関わる様々な業務</dd>
     </dl>
     <dl>
-      <dt>中国大連事務所</dt>
-      <dd>大連市甘井子区&#28377;仁南園7-2-101</dd>
+      <dt>雇用形態</dt>
+      <dd>正社員</dd>
     </dl>
     <dl>
-      <dt>中国大連ショールーム</dt>
-      <dd>大連市甘井子区毛墓子北海工業区</dd>
-    </dl>
-    <dl>
-      <dt>資本金</dt>
-      <dd>5,000万円</dd>
-    </dl>
-    <dl>
-      <dt>従業員</dt>
-      <dd>12名</dd>
-    </dl>
-    <dl>
-      <dt>グループ企業</dt>
-      <dd>ニューサンライト株式会社（日本）<br/>日本クリーンアップ株式会社（日本）<br/>台湾五常有限公司（中華民国 台北市）<br/>大連ASTRO BLADE有限公司（中国 遼寧省）<br/>ASTRO BLADE VN.CO（ベトナム・HMC）</dd>
-    </dl>
-    <dl>
-      <dt>支　所</dt>
-      <dd>中華人民共和国（遼寧省、大連市）<br/>タイ王国（バンコク市、スクンビット区）</dd>
+      <dt>待遇・福利厚生</dt>
+      <dd>各種社会保険完備　資格取得支援<br/>退職金制度　社員旅行</dd>
     </dl>
   </div>
 </section>
@@ -119,7 +103,7 @@
       <div class="recruit-contact__ttl__en fadein">Contact</div>
       <div class="recruit-contact__ttl__jp fadein">お問い合わせ</div>
     </h2>
-    <p class="recruit-contact__detail fadein">ご意見・ご質問など、お問い合わせは、下記フォームからお願いいたします。</p>
+    <p class="recruit-contact__detail fadein">お問い合わせは、下記フォームからお願いいたします。</p>
     <div class="recruit-contact__btn fadein"><a href="<?php echo home_url() ?>/contact/">Contact Form</a></div>
   </div>
 </section><?php get_footer();?>

@@ -156,7 +156,7 @@
       <div class="top-contact__ttl__en fadein">Contact</div>
       <div class="top-contact__ttl__jp fadein">お問い合わせ</div>
     </h2>
-    <p class="top-contact__detail fadein">ご意見・ご質問など、お問い合わせは、下記フォームからお願いいたします。</p>
+    <p class="top-contact__detail fadein">お問い合わせは、下記フォームからお願いいたします。</p>
     <div class="top-contact__btn fadein"><a href="<?php echo home_url() ?>/contact/">Contact Form</a></div>
   </div>
 </section><?php get_footer();?>

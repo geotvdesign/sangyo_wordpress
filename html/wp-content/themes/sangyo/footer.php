@@ -29,8 +29,8 @@
       <ul class="footer__nav__menu col-lg-3">
         <li class="footer__nav__menu__item"><a href="<?php echo home_url() ?>/company">会社案内
             <ul class="sub">
-              <li class="sub__item"><a href="<?php echo home_url() ?>/company">会社概要</a></li>
-              <li class="sub__item"><a href="<?php echo home_url() ?>/company">沿革</a></li>
+              <li class="sub__item"><a href="<?php echo home_url() ?>/company#desc">会社概要</a></li>
+              <li class="sub__item"><a href="<?php echo home_url() ?>/company#history">沿革</a></li>
             </ul></a></li>
       </ul>
       <ul class="footer__nav__menu col-lg-3">

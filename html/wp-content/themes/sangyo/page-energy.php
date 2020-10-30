@@ -30,7 +30,7 @@
           <div class="biz-detail__box__contents col-md-6">
             <div class="biz-detail__box__contents__inner">
               <p class="biz-detail__box__contents__ttl fadein">基礎化学品から合成樹脂製品まで扱う<br/>化学品分野</p>
-              <p class="biz-detail__box__contents__info fadein">基礎化学品から合成樹脂製品、電子材料、医薬品原料など幅広い商品群のトレードを展開しています。なかでも世界中に 広がる販売ネットワークを武器に、有機基礎原料、合繊原料、硫黄及びその誘導品、合成樹脂等の取扱数量は、総合商社でトップクラスの地位にあります。トレードに加え、事業投資を通じて、川上から川下に至るポートフォリオの構築を多方面で進めており、ケミカルフロンティア（株）やプラスチックス（株）等、数多くの有力事業会社を傘下に擁しています。</p>
+              <p class="biz-detail__box__contents__info fadein">基礎化学品から合成樹脂製品、電子材料、医薬品原料など幅広い商品群のトレードを展開しています。なかでも世界中に 広がる販売ネットワークを武器に、有機基礎原料、合繊原料、硫黄及びその誘導品、合成樹脂等の取扱数量は、総合商社でトップクラスの地位にあります。トレードに加え、事業投資を通じて、川上から川下に至るポートフォリオの構築を多方面で進めており、ケミカルサンギョー（株）やサンギョープラスチック（株）等、数多くの有力事業会社を傘下に擁しています。</p>
             </div>
           </div>
           <div class="biz-detail__box__img energy-img02 col-md-6 fadein"></div>
@@ -69,7 +69,7 @@
       <div class="biz-contact__ttl__en fadein">Contact</div>
       <div class="biz-contact__ttl__jp fadein">お問い合わせ</div>
     </h2>
-    <p class="biz-contact__detail fadein">ご意見・ご質問など、お問い合わせは、下記フォームからお願いいたします。</p>
+    <p class="biz-contact__detail fadein">お問い合わせは、下記フォームからお願いいたします。</p>
     <div class="biz-contact__btn fadein"><a href="<?php echo home_url() ?>/contact/">Contact Form</a></div>
   </div>
 </section><?php get_footer();?>
