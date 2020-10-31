@@ -1,5 +1,4 @@
 .footer {
-    /* background: url(https://placehold.jp/1400x480.png) no-repeat left top;*/
     background: #f0f0f0;
     background-size: cover;
     height: 460px;
@@ -18,9 +17,6 @@
     &__nav {
         display: flex;
         width: 70%;
-        & ul + ul {
-            /*margin-left: 30px;*/
-        }
         &__menu {
             vertical-align: top;
             &__item {

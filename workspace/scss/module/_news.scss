@@ -8,28 +8,6 @@
         background: url(../images/blog_visual.jpg) no-repeat;
         background-size: cover;
     }
-    &__inner {
-        padding: 100px 0;
-        margin: 0 auto;
-        width: 960px;
-        height: 500px;
-    }
-    &__ttl {
-        position: absolute;
-        top: 180px;
-        &__en {
-            color: #fff;
-            font-size: 5.0rem;
-            font-weight: lighter;
-            letter-spacing: 2px;
-        }
-        &__ja {
-            color: #fff;
-            font-size: 2.0rem;
-            font-weight: bold;
-            padding-top: 10px;
-        }
-    }
 }
 .info {
     background-position: top;

@@ -63,13 +63,13 @@
     </div>
   </div>
 </section>
-<section class="biz-contact">
-  <div class="biz-contact__inner">
-    <h2 class="biz-contact__ttl">
-      <div class="biz-contact__ttl__en fadein">Contact</div>
-      <div class="biz-contact__ttl__jp fadein">お問い合わせ</div>
+<section class="to-contact">
+  <div class="to-contact__inner">
+    <h2 class="to-contact__ttl biz">
+      <div class="to-contact__ttl__en fadein">Contact</div>
+      <div class="to-contact__ttl__jp fadein">お問い合わせ</div>
     </h2>
-    <p class="biz-contact__detail fadein">お問い合わせは、下記フォームからお願いいたします。</p>
-    <div class="biz-contact__btn fadein"><a href="<?php echo home_url() ?>/contact/">Contact Form</a></div>
+    <p class="to-contact__detail fadein">お問い合わせは、下記フォームからお願いいたします。</p>
+    <div class="to-contact__btn fadein"><a href="<?php echo home_url() ?>/contact/">Contact Form</a></div>
   </div>
 </section><?php get_footer();?>

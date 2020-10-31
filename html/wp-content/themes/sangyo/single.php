@@ -1,6 +1,4 @@
 <?php get_header(); ?>
-<!-- 上記が追記するコード -->
-
  <section id="content">
 	 <div id="content-wrap" class="container">
  		<div id="main" class="col-md-9">
@@ -17,11 +15,6 @@
       endif;
       ?>
  		</div>
- 		<!-- <div id="sidebar" class="col-md-3"> -->
-			<!-- <?php //get_sidebar(); ?> -->
-			<!-- 上記が追記するコード -->
- 		<!-- </div> -->
  	</div>
  </section>
- <!-- 下記が追記するコード -->
 <?php get_footer(); ?>

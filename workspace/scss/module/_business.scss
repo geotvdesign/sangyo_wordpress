@@ -3,41 +3,7 @@
         background: url(../images/business_visual.jpg) no-repeat;
         background-size: cover;
     }
-    &__inner {
-        padding: 100px 0;
-        margin: 0 auto;
-        width: 960px;
-    }
-    &__ttl {
-        padding-top: 50px;
-        &__en {
-            color: #fff;
-            font-size: 5.0rem;
-            font-weight: lighter;
-            letter-spacing: 2px;
-        }
-        &__ja {
-            color: #bbb;
-            font-size: 2.0rem;
-            font-weight: bold;
-            padding-top: 10px;
-        }
-    }
 }
-/*common.css*/
-.under-sub-ttl {
-    font-size: 2.8rem;
-    font-weight: bold;
-    padding-bottom: 60px;
-}
-.under-sub-ttl.company {
-    letter-spacing: 2px;
-    text-align: center;
-}
-
-  .map {
-    background: #fff;
-  }
 /*pc.css*/
 .business {
     &__inner {

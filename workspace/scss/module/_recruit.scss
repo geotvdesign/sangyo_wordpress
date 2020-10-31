@@ -3,42 +3,8 @@
         background: url(../images/recruit_visual.jpg) no-repeat;
         background-size: cover;
     }
-    &__inner {
-        padding: 100px 0;
-        margin: 0 auto;
-        width: 960px;
-    }
-    &__ttl {
-        padding-top: 50px;
-        &__en {
-            color: #fff;
-            font-size: 5.0rem;
-            font-weight: lighter;
-            letter-spacing: 2px;
-        }
-        &__ja {
-            color: #bbb;
-            font-size: 2.0rem;
-            font-weight: bold;
-            padding-top: 10px;
-        }
-    }
-}
-/*common.css*/
-.under-sub-ttl {
-    font-size: 2.8rem;
-    font-weight: bold;
-    padding-bottom: 60px;
-}
-.under-sub-ttl.company {
-    letter-spacing: 2px;
-    text-align: center;
 }
 
-  .map {
-    background: #fff;
-  }
-/*pc.css*/
 .recruit {
     &__inner {
         padding: 60px 0 140px;
@@ -78,8 +44,6 @@
     }
 }
 .human {
-    /*pc*/
-    /*background-color: #333;*/
     height: auto;
     &__inner {
         margin: 0 auto;
@@ -101,8 +65,6 @@
         }
     }
     &__detail {
-        /* background: url(../images/detail_bg_ss.jpg) no-repeat;
-        background-size: cover;*/
         background-position: top;
         padding: 10px 0 0;
         &__inner {
@@ -110,16 +72,10 @@
             width: 1100px;
         }
         &__box {
-            /* background: url(../images/detail_box_bg.png) no-repeat;
-            background-size: 1108px 387px;*/
-            /*height: 387px;*/
             position: relative;
             width: 1108px;
-            /*margin: 120px 0 0;*/
             background: #fff;
             &__inner {
-                /*margin: 0 0 0 200px;*/
-                /*padding: 120px 0 0;*/
                 .colum {
                     justify-content: flex-start;
                 }
@@ -129,7 +85,6 @@
             }
 
             &__contents {
-                /*margin: 0 40px 0 0;*/
                 width: 370px;
                 &__inner {
                     width: 450px;
@@ -163,8 +118,6 @@
     }
 }
 .interview {
-    /*pc*/
-    /*background-color: #333;*/
     height: auto;
     &__inner {
         margin: 0 auto;
@@ -246,8 +199,6 @@
     }
 }
 .application {
-    /*pc*/
-    /*background-color: #333;*/
     height: auto;
     &__inner {
         margin: 0 auto;
@@ -286,44 +237,8 @@
         }
     }
 }
-.recruit-contact {
-    margin: 0 0 130px;
-    &__inner {
-        margin: 0 auto;
-        width: 1100px;
-    }
-    &__ttl {
-        color: #fff;
-        text-align: center;
+.to-contact {
+    &__ttl.recruit {
         padding: 200px 0 60px;
-        &__en {
-            color: #000;
-            font-size: 4.8rem;
-        }
-        &__jp {
-            color: #999;
-            font-size: 2.4rem;
-            font-weight: bold;
-            padding: 10px 0 0;
-        }
-    }
-    &__detail {
-        text-align: center;
-        margin-bottom: 48px;
-    }
-    &__btn {
-        font-weight: 400;
-        text-align: center;
-        a {
-            border: 1px solid #aabcc2;
-            box-sizing: border-box;
-            color: #333;
-            display: inline-block;
-            font-size: 14px;
-            letter-spacing: 1px;
-            min-width: 550px;
-            padding: 14px;
-            transition: color .6s ease,border .6s ease,background .6s ease;
-        }
     }
 }

@@ -97,13 +97,13 @@
     </dl>
   </div>
 </section>
-<section class="recruit-contact">
-  <div class="recruit-contact__inner">
-    <h2 class="recruit-contact__ttl">
-      <div class="recruit-contact__ttl__en fadein">Contact</div>
-      <div class="recruit-contact__ttl__jp fadein">お問い合わせ</div>
+<section class="to-contact">
+  <div class="to-contact__inner">
+    <h2 class="to-contact__ttl recruit">
+      <div class="to-contact__ttl__en fadein">Contact</div>
+      <div class="to-contact__ttl__jp fadein">お問い合わせ</div>
     </h2>
-    <p class="recruit-contact__detail fadein">お問い合わせは、下記フォームからお願いいたします。</p>
-    <div class="recruit-contact__btn fadein"><a href="<?php echo home_url() ?>/contact/">Contact Form</a></div>
+    <p class="to-contact__detail fadein">お問い合わせは、下記フォームからお願いいたします。</p>
+    <div class="to-contact__btn fadein"><a href="<?php echo home_url() ?>/contact/">Contact Form</a></div>
   </div>
 </section><?php get_footer();?>

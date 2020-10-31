@@ -14,10 +14,10 @@ $(function(){
 
 /*タイトルと背景画像を遅延表示*/
 $(function(){
-    $('.top-main-visual__copy__en').delay(800).queue(function(){
+    $('.top-main-visual__copy__en').delay(500).queue(function(){
         $(this).addClass("show");
     });
-    $('.top-main-visual__copy__jp').delay(850).queue(function(){
+    $('.top-main-visual__copy__jp').delay(550).queue(function(){
         $(this).addClass("show");
     });
     $('.under-contents__ttl__en').delay(800).queue(function(){
@@ -26,7 +26,7 @@ $(function(){
     $('.under-contents__ttl__ja').delay(850).queue(function(){
         $(this).addClass("show");
     });
-    $('.under-contents').delay(850).queue(function(){
+    $('.under-contents').delay(300).queue(function(){
         $(this).addClass("show");
     });
 });
