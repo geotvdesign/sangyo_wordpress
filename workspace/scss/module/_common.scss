@@ -129,6 +129,10 @@ ol, ul {
             min-width: 550px;
             padding: 14px;
             transition: color .6s ease,border .6s ease,background .6s ease;
+            &:hover {
+                background: #000;
+                color: #fff;
+            }
         }
     }
 }

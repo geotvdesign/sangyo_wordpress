@@ -140,6 +140,9 @@
     &__box {
         height: 500px;
         padding: 0;
+        &:hover {
+            opacity: .7;
+        }
         &.member-01 {
             background: url(../images/recruit_main_img02.jpg);
             background-size: cover;

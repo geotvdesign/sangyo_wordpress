@@ -11,19 +11,10 @@
         background-size: cover;
         height: 100vh;
         position: relative;
-        /*
-        .filter {
-            background: #000;
-            video {
-                opacity: .8;
-            }
-        }*/
-
         &__inner {
             position: relative;
             /*pc*/
             margin: 0 auto;
-            /*width: 1100px;*/
         }
         &__copy {
             /*pc*/
@@ -159,6 +150,9 @@
                 color: #222;
                 font-size: 1.4rem;
                 line-height: 130%;
+                &:hover {
+                    text-decoration: underline;
+                }
             }
         }
     }
@@ -325,15 +319,19 @@
                 letter-spacing: 2px;
                 opacity: 1;
                 text-align: center;
+                transition: 0.5s ;
                 &::before {
                     background-color: black;
-                    opacity: 0.4;
+                    opacity: .4;
                     position: absolute;
                     top: 0;
                     right: 0;
                     bottom: 0;
                     left: 0;
                     content: ' ';
+                }
+                &:hover {
+                    opacity: .7;
                 }
                 &.top-metal {
                     background: url(../images/top_main_img02.jpg);
@@ -486,6 +484,7 @@
             text-align: center;
             height: 374px;
             position: relative;
+            transition: 0.5s ;
             &::before {
                 background-color: black;
                 opacity: 0.4;
@@ -495,6 +494,9 @@
                 bottom: 0;
                 left: 0;
                 content: ' ';
+            }
+            &:hover {
+                opacity: .7;
             }
             &.human {
                 background: url(../images/top_main_img06.jpg);

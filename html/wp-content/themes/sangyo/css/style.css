@@ -200,6 +200,11 @@ ol, ul {
   transition: color .6s ease,border .6s ease,background .6s ease;
 }
 
+.to-contact__btn a:hover {
+  background: #000;
+  color: #fff;
+}
+
 /*common.css*/
 .under-sub-ttl {
   font-size: 2.8rem;
@@ -326,6 +331,30 @@ ol, ul {
   line-height: 100px;
 }
 
+.header__nav__menu__item a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  height: 65px;
+}
+
+.header__nav__menu__item a::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition: transform .3s;
+}
+
+.header__nav__menu__item a:hover::after {
+  transform: scale(1, 1);
+}
+
 .header__nav__menu__item a:link, .header__nav__menu__item a:active, .header__nav__menu__item a:visited {
   color: #fff;
 }
@@ -365,6 +394,10 @@ ol, ul {
 .footer__nav__menu__item {
   margin: 0 0 15px;
   list-style-type: none;
+}
+
+.footer__nav__menu__item a:hover {
+  opacity: .5;
 }
 
 .footer__nav__menu__item a:link, .footer__nav__menu__item a:visited, .footer__nav__menu__item a:active {
@@ -468,13 +501,6 @@ ol, ul {
   height: 100vh;
   position: relative;
   /*
-        .filter {
-            background: #000;
-            video {
-                opacity: .8;
-            }
-        }*/
-  /*
         .pattern {
             background-color: #000;
             height: 810px;
@@ -493,7 +519,6 @@ ol, ul {
   position: relative;
   /*pc*/
   margin: 0 auto;
-  /*width: 1100px;*/
 }
 
 .main .top-main-visual__copy {
@@ -635,6 +660,10 @@ ol, ul {
   color: #222;
   font-size: 1.4rem;
   line-height: 130%;
+}
+
+.main .top-infomation .top-news__ttl:hover {
+  text-decoration: underline;
 }
 
 .main .top-about {
@@ -791,17 +820,22 @@ ol, ul {
   letter-spacing: 2px;
   opacity: 1;
   text-align: center;
+  transition: 0.5s;
 }
 
 .main .top-business__box__bnr::before {
   background-color: black;
-  opacity: 0.4;
+  opacity: .4;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   content: ' ';
+}
+
+.main .top-business__box__bnr:hover {
+  opacity: .7;
 }
 
 .main .top-business__box__bnr.top-metal {
@@ -940,6 +974,7 @@ ol, ul {
   text-align: center;
   height: 374px;
   position: relative;
+  transition: 0.5s;
 }
 
 .main .top-recruit__box::before {
@@ -951,6 +986,10 @@ ol, ul {
   bottom: 0;
   left: 0;
   content: ' ';
+}
+
+.main .top-recruit__box:hover {
+  opacity: .7;
 }
 
 .main .top-recruit__box.human {
@@ -1108,77 +1147,87 @@ ol, ul {
 }
 
 /*pc.css*/
-.business__inner {
+.top-business__inner.page {
   padding: 60px 0 140px;
 }
 
-.business__box {
-  padding: 0;
-  position: relative;
-}
+/*
+.business {
+    &__inner {
+        padding: 60px 0 140px;
+    }
+    &__box {
+        padding: 0;
+        position: relative;
+        height: 350px;
+        a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+        &::before {
+            background-color: black;
+            opacity: 0.4;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            content: ' ';
+        }
+        &__bnr {
+            color: #fff;
+            height: 450px;
+            letter-spacing: 2px;
+            opacity: 1;
+            text-align: center;
+            height: 350px;
+            &.top-metal {
+                background: url(../images/top_main_img02.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            &.top-food {
+                background: url(../images/top_main_img03.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            &.top-machine {
+                background: url(../images/top_main_img04.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            &.top-energy {
+                background: url(../images/top_main_img05.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            &__inner {
+                position: absolute;
+                top: 35%;
+                left: 0;
+                text-align: center;
+                width: 100%;
+            }
+            &__name {
+                font-size: 2.3rem;
+                font-weight: lighter;
 
-.business__box::before {
-  background-color: black;
-  opacity: 0.4;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  content: ' ';
-}
+            }
+            &__info {
+                font-size: 1.4rem;
+                margin: 30px 0 0;
 
-.business__box__bnr {
-  color: #fff;
-  height: 450px;
-  letter-spacing: 2px;
-  opacity: 1;
-  text-align: center;
-  height: 350px;
-}
-
-.business__box__bnr.top-metal {
-  background: url(../images/top_main_img02.jpg);
-  background-size: cover;
-  background-position: center center;
-}
-
-.business__box__bnr.top-food {
-  background: url(../images/top_main_img03.jpg);
-  background-size: cover;
-  background-position: center center;
-}
-
-.business__box__bnr.top-machine {
-  background: url(../images/top_main_img04.jpg);
-  background-size: cover;
-  background-position: center center;
-}
-
-.business__box__bnr.top-energy {
-  background: url(../images/top_main_img05.jpg);
-  background-size: cover;
-  background-position: center center;
-}
-
-.business__box__bnr__inner {
-  position: absolute;
-  top: 35%;
-  left: 0;
-  text-align: center;
-  width: 100%;
-}
-
-.business__box__bnr__name {
-  font-size: 2.3rem;
-  font-weight: lighter;
-}
-
-.business__box__bnr__info {
-  font-size: 1.4rem;
-  margin: 30px 0 0;
-}
-
+            }
+        }
+    }
+}*/
 /*-----common-----*/
 .biz-detail {
   background-position: top;
@@ -1562,6 +1611,10 @@ ol, ul {
 .interview__box {
   height: 500px;
   padding: 0;
+}
+
+.interview__box:hover {
+  opacity: .7;
 }
 
 .interview__box.member-01 {
