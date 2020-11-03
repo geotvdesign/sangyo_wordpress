@@ -325,6 +325,16 @@
                 letter-spacing: 2px;
                 opacity: 1;
                 text-align: center;
+                &::before {
+                    background-color: black;
+                    opacity: 0.4;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    content: ' ';
+                }
                 &.top-metal {
                     background: url(../images/top_main_img02.jpg);
                     background-size: cover;
@@ -476,6 +486,16 @@
             text-align: center;
             height: 374px;
             position: relative;
+            &::before {
+                background-color: black;
+                opacity: 0.4;
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                content: ' ';
+            }
             &.human {
                 background: url(../images/top_main_img06.jpg);
                 background-size: cover;
