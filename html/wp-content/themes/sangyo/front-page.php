@@ -5,11 +5,7 @@
       <div class="top-main-visual__copy__en">Change the world with trade</div>
       <div class="top-main-visual__copy__jp">貿易で世界を変える</div>
     </h1>
-    <div class="scroll-arrow fadein-left"><a href="http://"><span></span><span></span><span></span>
-        <div class="txt">Scroll</div></a></div>
   </div>
-  <div class="pattern"></div>
-  <video src="<?php echo get_template_directory_uri(); ?>/images/top_video.mp4?2" autoplay="autoplay" loop="loop" muted="muted"></video>
 </section>
 <section class="top-infomation">
   <div class="top-infomation__inner row fadein">

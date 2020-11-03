@@ -2,20 +2,22 @@
     position: absolute;
     top: 0;
     z-index: 1;
-    left: 15%;
-    &__inner {
-        display: flex;
-    }
+    left: 0;
+    width: 100%;
+
     &__logo {
         padding: 10px 0 0;
+        position: absolute;
+        left: 80px;
         img {
             margin: 0 auto;
         }
     }
     &__nav {
         clear: both;
-        margin: 0 auto;
-        width: 70%;
+        width: 600px;
+        position: absolute;
+        right: 80px;
         &__menu {
             display: flex;
             flex-wrap: wrap;
